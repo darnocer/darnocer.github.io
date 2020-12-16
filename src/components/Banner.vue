@@ -1,8 +1,10 @@
 <template>
   <div class="banner">
-    <div class="banner-text">
-      <h1 class="display-text">{{ name.firstName }} {{ name.lastName }}</h1>
-      <h2 id="typewriter"></h2>
+    <div class="banner-text" data-aos="fade-up"
+          data-aos-duration="500">
+      <h3 class="greeting-subtitle">Hi, I'm {{ name.first }} {{ name.last }}</h3>
+      <h1 id="typewriter" class="display-text"> </h1>
+      <!-- <h2 id="typewriter"></h2> -->
     </div>
   </div>
 </template>
@@ -11,7 +13,8 @@
 import data from "../data/data.json";
 import Typewriter from "typewriter-effect/dist/core";
 
-var titles = data.main.titles;
+// var titles = data.main.titles;
+// var description = data.main.description;
 
 export default {
   name: "Banner",
@@ -19,15 +22,22 @@ export default {
     return {
       name: data.main.name,
       titles: data.main.titles,
+      description: data.main.description,
+      greeting: data.main.greeting
     };
   },
   mounted: function() {
-    new Typewriter("#typewriter", {
-      strings: titles,
+   var typewriter = new Typewriter("#typewriter", {
+      // strings: titles,
+      // strings: description,
+      delay: 100,
       autoStart: true,
-      loop: true,
+      loop: false,
       deleteSpeed: 5,
     });
+
+typewriter.pauseFor(600).typeString("I code stuff.").pauseFor(100).deleteAll(5).typeString("I design stuff.").pauseFor(100).deleteAll(5).typeString("& you're lookin' at it.").start()
+    
   },
 };
 </script>

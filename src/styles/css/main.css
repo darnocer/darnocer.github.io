@@ -17,12 +17,12 @@ body {
 
 .light-section {
   background-color: #f0f0f0;
-  color: #222222; }
+  color: #1d1f21; }
   .light-section a {
     color: #747474; }
 
 .dark-section {
-  background-color: #222222;
+  background-color: #1d1f21;
   color: #f0f0f0; }
   .dark-section a {
     color: #747474; }
@@ -56,11 +56,11 @@ a {
   a:hover {
     cursor: pointer;
     text-decoration: none;
-    color: #3498db; }
+    color: #03957d; }
 
 .section-header {
   text-decoration: underline;
-  text-decoration-color: #3498db;
+  text-decoration-color: #03957d;
   text-decoration-thickness: 0.375rem;
   padding-bottom: 2rem; }
 
@@ -72,7 +72,7 @@ p {
   font-family: "Rubik", sans-serif;
   font-weight: bold;
   letter-spacing: 2px;
-  color: #3498db;
+  color: #03957d;
   font-size: 1.2rem; }
 
 .nav-item {
@@ -85,11 +85,12 @@ p {
 .banner-text {
   color: #f0f0f0; }
   .banner-text .display-text {
-    font-size: 6rem; }
-  .banner-text #typewriter {
-    font-size: 2.4rem;
-    color: inherit;
-    text-transform: none; }
+    font-size: 5.5rem; }
+  .banner-text .greeting-subtitle {
+    color: #03957d;
+    font-weight: bold;
+    letter-spacing: -0.03rem;
+    font-size: 1.5rem; }
 
 .footer {
   font-size: 0.8rem; }
@@ -116,14 +117,14 @@ section {
   margin: 0 auto; }
 
 .filters .active {
-  color: #3498db; }
+  color: #03957d; }
 
 header {
   position: relative;
   height: 100%;
   width: 100%;
   background: no-repeat center center fixed;
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/header-background.jpg);
+  background-color: #1d1f21;
   background-size: cover;
   -webkit-background-size: cover;
   text-align: center; }
@@ -134,9 +135,12 @@ header {
   header #FirstName {
     color: #f0f0f0; }
   header #LastName {
-    color: #3498db; }
+    color: #03957d; }
   header .active-nav a {
-    color: #3498db !important; }
+    text-decoration: underline;
+    text-decoration-color: #03957d;
+    text-decoration-thickness: 0.2rem;
+    padding-bottom: 2rem; }
   header .banner {
     display: inline-block;
     vertical-align: middle;
@@ -155,13 +159,13 @@ header {
   .footer a i:link {
     color: #f0f0f0; }
   .footer a i:hover {
-    color: #3498db; }
+    color: #03957d; }
   .footer #username {
     text-transform: lowercase; }
     .footer #username a:link {
       color: #f0f0f0; }
     .footer #username a:hover {
-      color: #3498db; }
+      color: #03957d; }
   .footer .social-item i {
     font-size: 1.5rem;
     padding: 0 2rem; }

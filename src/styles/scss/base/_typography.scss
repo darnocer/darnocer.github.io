@@ -43,10 +43,7 @@ a {
 }
 
 .section-header {
-  text-decoration: underline;
-  text-decoration-color: $accent-color;
-  text-decoration-thickness: 0.375rem;
-  padding-bottom: $spacer;
+  @include thick-underline(0.375rem);
 }
 
 p {
@@ -76,11 +73,19 @@ p {
   .display-text {
     font-size: $title-size;
   }
-  #typewriter {
-    font-size: $subtitle-size;
-    color: inherit;
-    text-transform: none;
+
+  .greeting-subtitle {
+    color: $accent-color;
+    font-weight: bold;
+    letter-spacing: -0.03rem;
+    font-size: $font-size-lg;
   }
+
+  // #typewriter {
+  //   font-size: $subtitle-size;
+  //   color: inherit;
+  //   text-transform: none;
+  // }
 }
 
 .footer {

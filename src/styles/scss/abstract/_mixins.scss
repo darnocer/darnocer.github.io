@@ -5,3 +5,10 @@
     color: $grey-color;
   }
 }
+
+@mixin thick-underline($thickness) {
+  text-decoration: underline;
+  text-decoration-color: $accent-color;
+  text-decoration-thickness: $thickness;
+  padding-bottom: $spacer;
+}

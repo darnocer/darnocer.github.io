@@ -34,8 +34,8 @@
 
     <div class="copyright">
       <p>
-        Copyright © {{ new Date().getFullYear() }}
-        {{ text.main.name.firstName }} {{ text.main.name.lastName }}.
+        Copyright © {{ new Date().getFullYear() }} {{ text.main.name.first }}
+        {{ text.main.name.last }}.
         {{ text.footer.copyrightText }}
       </p>
     </div>

@@ -57,7 +57,7 @@ export default {
   data() {
     return {
       about: data.about,
-      name: data.main.name.firstName,
+      name: data.main.name.first,
       facts: data.about.facts,
       heading: data.main.headings.about,
     };
