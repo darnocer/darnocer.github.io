@@ -90,7 +90,7 @@
       </div>
     </div>
     <div class="row arrow-container">
-      <a class="arrow" href="#">
+      <a class="arrow-icon" href="#">
         <i class="fas fa-chevron-up fa-4x"></i>
       </a>
     </div>

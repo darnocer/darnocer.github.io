@@ -318,9 +318,9 @@ header {
   left: 0;
   right: 0;
   width: 100%;
-  margin: 0;
+  margin: 0 auto;
   text-align: center; }
   .arrow-container .arrow-icon {
-    margin: auto; }
+    margin: 0 auto; }
     .arrow-container .arrow-icon a {
       color: #f0f0f0; }
