@@ -20,7 +20,7 @@
           data-aos-duration="1000"
         >
           <p id="about-content">
-            <span id="greeting">I'm {{ name }}! </span>
+            <!-- <span id="greeting">I'm {{ name }}! </span> -->
             <span id="bio" v-html="about.bio"></span>
           </p>
         </div>

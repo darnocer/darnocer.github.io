@@ -2,7 +2,7 @@
   <div class="banner">
     <div class="banner-text" data-aos="fade-up"
           data-aos-duration="500">
-      <h3 class="greeting-subtitle">Hi, I'm {{ name.first }} {{ name.last }}</h3>
+      <h3 class="greeting-subtitle">Hi, I'm {{ name.first }}</h3>
       <h1 id="typewriter" class="display-text"> </h1>
       <!-- <h2 id="typewriter"></h2> -->
     </div>
