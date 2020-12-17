@@ -6,7 +6,7 @@
     },
     "greeting": "Hi, I'm ",
     "description": "I code, design, & write...",
-    "titles": ["I code stuff.", "I design stuff.", "I write about that stuff."],
+    "titles": ["I code stuff.", "I design stuff.", "I get $#!+ done."],
     "headings": {
       "about": "About Ya Gurl",
       "skills": "Skillz that Killz",
@@ -81,7 +81,7 @@
       },
       {
         "category": "Project Managment",
-        "subtitle": "I know how to get $#!+ done.",
+        "subtitle": "I don't mess around.",
         "faClass": "fas fa-tasks",
         "skillList": [
           {
@@ -130,7 +130,7 @@
     ]
   },
   "portfolio": {
-    "defaultFilter": "full-stack",
+    "defaultFilter": "front-end",
     "projects": [
       {
         "title": "HelpersConnect",
@@ -147,6 +147,14 @@
         "link": "https://project-02-code-connect.herokuapp.com/",
         "source": "https://github.com/darnocer/Project-02-Code-Connect",
         "filter": "full-stack"
+      },
+      {
+        "title": "Developer Portfolio Template",
+        "description": "A mobile-responsive portfolio template built with Vue.js",
+        "image": "portfoliotemplate.png",
+        "link": "https://vue-portfolio-template.netlify.app/",
+        "source": "https://github.com/darnocer/vue-portfolio-template",
+        "filter": "front-end"
       },
       {
         "title": "Date Nite",
@@ -172,14 +180,7 @@
         "source": "https://github.com/darnocer/Server-Side-APIs-Weather-Dashboard",
         "filter": "front-end"
       },
-      {
-        "title": "Code Quiz",
-        "description": "A vanilla Javascript quiz about vanilla Javascript.",
-        "image": "codequiz.png",
-        "link": "https://darnocer.github.io/Web-APIs-Code-Quiz/",
-        "source": "https://github.com/darnocer/Web-APIs-Code-Quiz",
-        "filter": "front-end"
-      },
+
       {
         "title": "The Underdog Foundation",
         "description": "Website for The Underdog Foundation, a 501(c)(3) non-profit organization.",
