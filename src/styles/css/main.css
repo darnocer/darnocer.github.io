@@ -83,7 +83,8 @@ a {
   text-decoration: underline;
   text-decoration-color: #03957d;
   text-decoration-thickness: 0.375rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  text-underline-position: under; }
 
 p {
   font-family: "Karla", sans-serif;
@@ -156,7 +157,8 @@ header {
     text-decoration: underline;
     text-decoration-color: #03957d;
     text-decoration-thickness: 0.2rem;
-    padding-bottom: 2rem; }
+    padding-bottom: 2rem;
+    text-underline-position: under; }
   header .banner {
     display: inline-block;
     vertical-align: middle;
