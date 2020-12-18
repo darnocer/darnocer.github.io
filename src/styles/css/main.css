@@ -21,18 +21,18 @@ body {
 
 .light-section {
   background-color: #f0f0f0;
-  color: #1d1f21; }
+  color: #1b1b1b; }
   .light-section a {
     color: #747474; }
 
 .dark-section {
-  background-color: #1d1f21;
+  background-color: #1b1b1b;
   color: #f0f0f0; }
   .dark-section a {
     color: #747474; }
 
 .dark-bg {
-  background-color: #1d1f21; }
+  background-color: #1b1b1b; }
 
 @font-face {
   font-family: "Freight Text Bold";
@@ -138,7 +138,7 @@ header {
   height: 100%;
   width: 100%;
   background: no-repeat center center fixed;
-  background-color: #1d1f21;
+  background-color: #1b1b1b;
   background-size: cover;
   -webkit-background-size: cover;
   text-align: center; }
@@ -172,7 +172,7 @@ header {
     padding: 4rem; }
 
 .footer {
-  background-color: #1d1f21;
+  background-color: #1b1b1b;
   padding: 1rem; }
   .footer a i:link {
     color: #f0f0f0; }
