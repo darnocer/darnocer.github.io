@@ -1,3 +1,28 @@
+@font-face {
+  font-family: "Freight Text Bold";
+  src: url("../../assets/fonts/Freight Text/Freight Text Bold.eot"); /* IE9 Compat Modes */
+  src: url("../../assets/fonts/Freight Text/Freight Text Bold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../../assets/fonts/Freight Text/Freight Text Bold.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../../assets/fonts/Freight Text/Freight Text Bold.ttf")
+      format("truetype"); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "Freight Sans Book";
+  src: url("../../assets/fonts/Freight Text Sans/FreightSansBook.eot"); /* IE9 Compat Modes */
+  src: url("../../assets/fonts/Freight Text Sans/FreightSansBook.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("../../assets/fonts/Freight Text Sans/FreightSansBook.woff")
+      format("woff"),
+    /* Modern Browsers */
+      url("../../assets/fonts/Freight Text Sans/FreightSansBook.ttf")
+      format("truetype"); /* Safari, Android, iOS */
+}
+
 html,
 body,
 #app {
@@ -20,15 +45,16 @@ h1 {
 }
 
 h2 {
-  @extend %heading-font;
   @extend %uppercase-heading;
+  font-family: $body-font;
   font-size: 1.5rem;
 }
 
 h3 {
-  @extend %heading-font;
   @extend %uppercase-heading;
+  font-family: $body-font;
   font-size: 1.1rem;
+  font-weight: bold;
 }
 
 a {
@@ -49,14 +75,6 @@ a {
 p {
   font-family: $body-font;
   font-weight: 300;
-}
-
-#greeting {
-  font-family: $heading-font;
-  font-weight: bold;
-  letter-spacing: 2px;
-  color: $accent-color;
-  font-size: 1.2rem;
 }
 
 .nav-item {

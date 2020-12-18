@@ -34,6 +34,20 @@ body {
 .dark-bg {
   background-color: #1d1f21; }
 
+@font-face {
+  font-family: "Freight Text Bold";
+  src: url("../../assets/fonts/Freight Text/Freight Text Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("../../assets/fonts/Freight Text/Freight Text Bold.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight Text/Freight Text Bold.woff") format("woff"), url("../../assets/fonts/Freight Text/Freight Text Bold.ttf") format("truetype");
+  /* Safari, Android, iOS */ }
+
+@font-face {
+  font-family: "Freight Sans Book";
+  src: url("../../assets/fonts/Freight Text Sans/FreightSansBook.eot");
+  /* IE9 Compat Modes */
+  src: url("../../assets/fonts/Freight Text Sans/FreightSansBook.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/Freight Text Sans/FreightSansBook.woff") format("woff"), url("../../assets/fonts/Freight Text Sans/FreightSansBook.ttf") format("truetype");
+  /* Safari, Android, iOS */ }
+
 html,
 body,
 #app {
@@ -41,18 +55,21 @@ body,
   font-weight: 400;
   color: #f0f0f0; }
 
-h1, h2, h3 {
-  font-family: "Rubik", sans-serif; }
+h1 {
+  font-family: "Freight Text Bold", serif; }
 
 h2, h3 {
   text-transform: uppercase;
   color: #747474; }
 
 h2 {
+  font-family: "Karla", sans-serif;
   font-size: 1.5rem; }
 
 h3 {
-  font-size: 1.1rem; }
+  font-family: "Karla", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold; }
 
 a {
   text-transform: uppercase;
@@ -71,13 +88,6 @@ a {
 p {
   font-family: "Karla", sans-serif;
   font-weight: 300; }
-
-#greeting {
-  font-family: "Rubik", sans-serif;
-  font-weight: bold;
-  letter-spacing: 2px;
-  color: #03957d;
-  font-size: 1.2rem; }
 
 .nav-item {
   font-family: "Karla", sans-serif;
@@ -140,6 +150,8 @@ header {
     color: #f0f0f0; }
   header #LastName {
     color: #03957d; }
+  header #Logo {
+    max-height: 1.8rem; }
   header .active-nav a {
     text-decoration: underline;
     text-decoration-color: #03957d;
@@ -156,6 +168,8 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+  header .arrow-container {
+    padding: 4rem; }
 
 .footer {
   background-color: #1d1f21;

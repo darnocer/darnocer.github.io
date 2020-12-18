@@ -10,7 +10,7 @@
         >
           <img
             class="profile-pic"
-            src="../assets/images/profile-pic.png"
+            src="../../assets/images/profile-pic.png"
             alt="profile picture"
           />
         </div>
@@ -45,7 +45,7 @@
 </template>
 
 <script>
-import data from "../data/data.json";
+import data from "../../data/data.json";
 import Arrow from "../components/Arrow.vue";
 
 export default {

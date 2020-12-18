@@ -30,6 +30,10 @@ header {
     color: $accent-color;
   }
 
+  #Logo {
+    max-height: $logo-height;
+  }
+
   .active-nav {
     a {
       @include thick-underline(0.2rem);
@@ -47,5 +51,9 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .arrow-container {
+    padding: $spacer-lg;
   }
 }

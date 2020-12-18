@@ -1,9 +1,10 @@
 <template>
   <header id="home" class="bg">
     <nav class="navbar navbar-expand-lg fixed-top dark-bg">
-      <a class="navbar-brand" href="#" style="text-transform:lowercase;"
-        ><span id="FirstName" >{{name.first}}</span><span id="LastName">{{name.last}}.</span></a
-      >
+             <div v-if="logo"><img src="../../assets/images/logo.png" alt="logo" id="Logo"></div>
+        <div v-if="!logo">
+          <span id="FirstName">{{main.name.first}}</span> <span id="LastName">{{main.name.last}}</span>
+        </div>
       <button
         class="navbar-toggler"
         type="button"
@@ -28,7 +29,7 @@
       </div>
     </nav>
     <Banner />
-    <div class="row arrow-container" data-aos="fade-up" data-aos-duration="1000">
+    <div class="row arrow-container" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="3000">
     <a href="#about" class="arrow-icon" role="button">
       <p>Tell me more</p>
       <i class="fas fa-chevron-down fa-4x"></i>
@@ -39,7 +40,7 @@
 
 <script>
 // import Arrow from "../components/Arrow.vue";
-import data from "../data/data.json";
+import data from "../../data/data.json";
 import Banner from "../components/Banner.vue";
 
 export default {
@@ -52,6 +53,7 @@ export default {
   data() {
     return {
       name: data.main.name,
+      logo: data.main.logo
     };
   },
 };

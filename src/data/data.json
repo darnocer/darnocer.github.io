@@ -5,6 +5,7 @@
       "last": "Nocera"
     },
     "greeting": "Hi, I'm ",
+    "logo": true,
     "description": "",
     "titles": ["I code $#!+.", "I design $#!+.", "I get $#!+ done."],
     "headings": {
@@ -48,10 +49,6 @@
           {
             "name": "React.js &bull; Vue.js",
             "level": "60"
-          },
-          {
-            "name": "SQL &bull; MongoDB",
-            "level": "50"
           }
         ]
       },
@@ -63,7 +60,7 @@
         "skillList": [
           {
             "name": "Squarespace &bull; GoDaddy",
-            "level": "100"
+            "level": "90"
           },
           {
             "name": "Content Writing",
@@ -71,11 +68,11 @@
           },
           {
             "name": "Adobe Illustrator &bull; Photoshop",
-            "level": "60"
+            "level": "50"
           },
           {
             "name": "SEO",
-            "level": "60"
+            "level": "50"
           }
         ]
       },
