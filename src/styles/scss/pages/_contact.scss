@@ -9,10 +9,42 @@
   }
 
   .contact-content {
-    padding: $spacer;
+    padding: $spacer-sm;
   }
 
-  .container-fluid {
-    margin: 1.5rem auto;
+  .arrow-container {
+    padding: $spacer-sm;
+  }
+
+  .section-header {
+    padding: 0;
+    margin: 0;
+  }
+
+  .branding,
+  .pitch-text {
+    display: none;
+  }
+
+  .btn,
+  .btn-resume,
+  .btn-submit,
+  .btn-success {
+    background-color: $accent-color;
+    border-color: transparent;
+
+    color: $light-color;
+
+    &:hover {
+      background-color: darken($accent-color, 8%);
+      color: darken($light-color, 5%);
+    }
+  }
+
+  .contact-form {
+    margin-top: $spacer;
+    button {
+      width: 100%;
+    }
   }
 }

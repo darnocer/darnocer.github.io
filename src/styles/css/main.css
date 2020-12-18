@@ -34,6 +34,9 @@ body {
 .dark-bg {
   background-color: #1b1b1b; }
 
+.test {
+  border: 2px solid red; }
+
 @font-face {
   font-family: "Freight Text Bold";
   src: url("../../assets/fonts/Freight Text/Freight Text Bold.eot");
@@ -252,10 +255,37 @@ header {
   margin-top: 2rem; }
 
 #contact .contact-content {
-  padding: 2rem; }
+  padding: 1rem; }
 
-#contact .container-fluid {
-  margin: 1.5rem auto; }
+#contact .arrow-container {
+  padding: 1rem; }
+
+#contact .section-header {
+  padding: 0;
+  margin: 0; }
+
+#contact .branding,
+#contact .pitch-text {
+  display: none; }
+
+#contact .btn,
+#contact .btn-resume,
+#contact .btn-submit,
+#contact .btn-success {
+  background-color: #03957d;
+  border-color: transparent;
+  color: #f0f0f0; }
+  #contact .btn:hover,
+  #contact .btn-resume:hover,
+  #contact .btn-submit:hover,
+  #contact .btn-success:hover {
+    background-color: #026d5b;
+    color: #e3e3e3; }
+
+#contact .contact-form {
+  margin-top: 2rem; }
+  #contact .contact-form button {
+    width: 100%; }
 
 .skillbars {
   display: flex;

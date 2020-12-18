@@ -23,7 +23,7 @@
                 </li>
                 <li class="list-group-item">
                   <h3 class="d-inline">
-                    <i class="fa fa-envelope fa-lg"></i> Email:
+                    <i class="fa fa-envelope"></i> Email:
                   </h3>
                   <br class="d-md-none" />
                   <a href="mailto:hello@dariannocera.com">
@@ -46,15 +46,7 @@
                     </a>
                   </div>
                 </li>
-                <li class="list-group-item">
-                  <h3 class="d-inline">
-                    <i class="far fa-file-pdf"></i> Resume:
-                  </h3>
-                  <br class="d-md-none" />
-                  <a :href="contact.resumeLink" target="_blank">
-                    PDF
-                  </a>
-                </li>
+              
                 <li class="list-group-item">
                   <h3 class="d-inline">
                     <i class="fas fa-hand-holding-heart"></i> SUPPORT:
@@ -62,6 +54,14 @@
                   <a href="http://www.theunderdogfoundation.org" target="_blank"
                     >The Underdog Foundation</a
                   >
+                </li>
+                 <li class="list-group-item" v-if="contact.resumeLink !==''">
+                  <a :href="contact.resumeLink" target="_blank" alt="resume">
+                  <button class="btn btn-resume"  target="_blank">
+                    <i class="far fa-file-pdf"></i> Resume
+                  </button>
+                  </a>
+
                 </li>
               </ul>
             </div>
@@ -74,17 +74,56 @@
         >
           <h2>Send Me A Message</h2>
 
-      <!-- START OF 99INBOUND CONTACT FORM CODE  -->
 
-          <div
-            style="height: 60%; width:90%; margin: 0 auto;"
-            class="inbound-form-wrapper"
-            id="form_4095"
-            data-path="https://app.99inbound.com/i/eca66ce0-b392-4bc1-8247-13a69c26139a"
-            data-token="INp921C8buNbYYUrvGBhrwtt"
-          ></div>
+<div class="container contact-form">
+  <form action="https://app.99inbound.com/api/e/q8mbJaDo" method="POST" target="_blank">
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text bg-white">
+            <i class="fa fa-user"></i>&nbsp;
+          </span>
+        </div>
+        <input name="name" type="name" placeholder="Name" class="form-control border-left-0" required>
+      </div>
+    </div>
 
-        <!-- END OF 99INBOUND CODE  -->
+    <div class="form-group">
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text bg-white">
+            <i class="fa fa-envelope"></i>
+          </span>
+        </div>
+        <input name="email" type="email" placeholder="Email" class="form-control border-left-0" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <textarea class="form-control" id="message" rows="5" placeholder="Wazzup?" required></textarea>
+    </div>
+
+    <div style="position: absolute; left: -5000px;">
+  <input type="checkbox" name="lovely_aqua_fractal_gloves" value="1" tabindex="-1" autocomplete="no">
+</div>
+
+    <button type="submit" class="btn">
+      <i class="fa fa-paper-plane"></i> 
+      Send
+    </button>
+  </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
         </div>
       </div>
