@@ -35,7 +35,8 @@ header {
   }
 
   .active-nav {
-    a {
+    a,
+    a:hover {
       @include thick-underline(0.2rem);
     }
   }

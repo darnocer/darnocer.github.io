@@ -1,0 +1,14 @@
+.btn,
+.btn--color {
+  background-color: $accent-color;
+  border-color: transparent;
+
+  color: $light-color;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($accent-color, 8%);
+    color: darken($light-color, 5%);
+  }
+}

@@ -25,13 +25,13 @@
           <li><a class="nav-item nav-link" href="#skills">Skills</a></li>
           <li><a class="nav-item nav-link" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-item nav-link" href="#contact">Contact</a></li>
+          <li><a href="https://blog.darnocer.io" target="_blank" alt="Darian's Blog"><button class="nav-item btn btn--color">Blog <i class="fas fa-external-link-alt"></i></button></a></li>
         </ul>
       </div>
     </nav>
     <Banner />
     <div class="row arrow-container" data-aos="fade-up" data-aos-duration="3000" data-aos-delay="3000">
     <a href="#about" class="arrow-icon" role="button">
-      <p>Tell me more</p>
       <i class="fas fa-chevron-down fa-4x"></i>
     </a>
   </div>

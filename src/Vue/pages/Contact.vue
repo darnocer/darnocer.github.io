@@ -57,7 +57,7 @@
                 </li>
                  <li class="list-group-item" v-if="contact.resumeLink !==''">
                   <a :href="contact.resumeLink" target="_blank" alt="resume">
-                  <button class="btn btn-resume"  target="_blank">
+                  <button class="btn btn--color"  target="_blank">
                     <i class="far fa-file-pdf"></i> Resume
                   </button>
                   </a>
@@ -107,7 +107,7 @@
   <input type="checkbox" name="lovely_aqua_fractal_gloves" value="1" tabindex="-1" autocomplete="no">
 </div>
 
-    <button type="submit" class="btn">
+    <button type="submit" class="btn btn--color">
       <i class="fa fa-paper-plane"></i> 
       Send
     </button>

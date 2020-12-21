@@ -34,6 +34,26 @@ body {
 .dark-bg {
   background-color: #1b1b1b; }
 
+.btn,
+.btn-resume,
+.btn-submit,
+.btn-success {
+  background-color: #03957d;
+  border-color: transparent;
+  color: #f0f0f0; }
+  .btn:hover, .btn:focus, .btn:active,
+  .btn-resume:hover,
+  .btn-resume:focus,
+  .btn-resume:active,
+  .btn-submit:hover,
+  .btn-submit:focus,
+  .btn-submit:active,
+  .btn-success:hover,
+  .btn-success:focus,
+  .btn-success:active {
+    background-color: #026d5b;
+    color: #e3e3e3; }
+
 .test {
   border: 2px solid red; }
 
@@ -156,7 +176,8 @@ header {
     color: #03957d; }
   header #Logo {
     max-height: 1.8rem; }
-  header .active-nav a {
+  header .active-nav a,
+  header .active-nav a:hover {
     text-decoration: underline;
     text-decoration-color: #03957d;
     text-decoration-thickness: 0.2rem;
@@ -370,3 +391,15 @@ header {
     margin: 0 auto; }
     .arrow-container .arrow-icon a {
       color: #f0f0f0; }
+
+.btn,
+.btn--color {
+  background-color: #03957d;
+  border-color: transparent;
+  color: #f0f0f0; }
+  .btn:hover, .btn:focus, .btn:active,
+  .btn--color:hover,
+  .btn--color:focus,
+  .btn--color:active {
+    background-color: #026d5b;
+    color: #e3e3e3; }
