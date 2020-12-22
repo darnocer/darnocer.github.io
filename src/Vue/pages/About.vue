@@ -4,7 +4,7 @@
       <h1 class="section-header">{{ heading }}</h1>
       <div class="row justify-content-center">
         <div
-          class="col-sm-12 col-md-5 flex-col"
+          class="col-sm-12 col-md-6 flex-col"
           id="about-content"
           data-aos="fade-right"
           data-aos-duration="1000"

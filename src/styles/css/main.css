@@ -1,6 +1,10 @@
 @media only screen and (max-width: 767px) {
   #typewriter {
-    font-size: 2.3rem; } }
+    font-size: 2.3rem; }
+  #about-content {
+    padding: 0.5rem; }
+  #bio {
+    font-size: 1.5rem; } }
 
 *,
 *::after,
@@ -207,8 +211,8 @@ header {
     border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-right: 1rem; }
-  #about .tagline {
-    font-size: 1.5rem; }
+  #about .section-header {
+    padding: 2rem; }
   #about #bio {
     text-align: justify;
     font-size: 1rem; }

@@ -67,7 +67,7 @@ export default {
   data() {
     return {
       projects: data.portfolio.projects,
-      heading: data.main.headings.portfolio,
+      heading: data.main.headings.projects,
       currentFilter: data.portfolio.defaultFilter,
     };
   },
