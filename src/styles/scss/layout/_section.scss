@@ -11,25 +11,11 @@ section {
     margin: $spacer-lg auto;
 
     .flex-col {
-      padding: $spacer;
+      padding: $spacer-sm;
     }
   }
 
   .list-group-item {
     background-color: inherit;
-  }
-}
-
-.filters {
-  a {
-    padding: $spacer;
-  }
-
-  .filter {
-    margin: 0 auto;
-  }
-
-  .active {
-    color: $accent-color;
   }
 }
