@@ -3,10 +3,7 @@ node_modules
 /dist
 
 # temporary ignore 
-/src/pages/Journey.vue
-/src/pages/Skills_bars.vue
-/src/components/Timeline.vue
-README_template.node_modules
+/src/Vue/pages/About copy.vue
 
 
 # local env files

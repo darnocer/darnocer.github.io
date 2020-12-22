@@ -1,18 +1,44 @@
 // styling specifc to the #about section
 #about {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../../assets/images/header-background.jpg);
+
   .profile-pic {
     max-width: 100%;
     max-height: $profile-pic-height;
     border-radius: 50%;
     box-shadow: $profile-pic-shadow;
+    margin-right: $spacer-sm;
   }
 
   .tagline {
-    font-size: 1.5rem;
+    font-size: $font-size-lg;
+  }
+
+  #bio {
+    text-align: justify;
+    font-size: $font-size-md;
   }
 
   #about-content {
-    text-align: justify;
-    font-size: $spacer-sm;
+    margin: $spacer;
+    line-height: 1.6rem;
+    // background: rgba(0, 0, 0, 0.3);
+    border-left: 3px solid rgba($accent-color, 0.3);
+
+    background-color: rgba(255, 255, 255, 0.2);
+    /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    /* For the fog-like glass effect */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+
+  #facts {
+    margin: $spacer;
   }
 }

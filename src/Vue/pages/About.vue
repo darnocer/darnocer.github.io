@@ -2,31 +2,28 @@
   <section id="about" class="dark-section">
     <div class="container-fluid">
       <h1 class="section-header">{{ heading }}</h1>
-      <div class="row">
+      <div class="row justify-content-center">
         <div
-          class="col-sm-12 col-md-4 flex-col"
+          class="col-sm-12 col-md-5 flex-col"
+          id="about-content"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
           <img
-            class="profile-pic"
+            class="profile-pic float-left"
             src="../../assets/images/profile-pic.png"
             alt="profile picture"
           />
-        </div>
-        <div
-          class="col-sm-12 col-md-4 flex-col"
-          data-aos="fade-right"
-          data-aos-duration="1000"
-        >
-          <p id="about-content">
-            <!-- <span id="greeting">I'm {{ name }}! </span> -->
+
+          <p id="bio">
             <span id="bio" v-html="about.bio"></span>
           </p>
         </div>
+  
 
-        <div
+       <!-- <div
           class="col-sm-12 col-md-4 flex-col"
+          id="facts"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
@@ -36,7 +33,7 @@
               <br class="d-md-none" />{{ item.value }}
             </li>
           </ul>
-        </div>
+        </div>  -->
       </div>
     </div>
 
