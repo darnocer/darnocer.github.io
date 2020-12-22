@@ -2,8 +2,8 @@
   <div id="app">
     <Header />
     <About />
-    <Skills />
-    <Portfolio />
+    <!-- <Skills /> -->
+    <Projects />
     <Contact />
     <Footer />
   </div>
@@ -12,8 +12,8 @@
 <script>
 import Header from "./Vue/pages/Header.vue";
 import About from "./Vue/pages/About.vue";
-import Skills from "./Vue/pages/Skills.vue";
-import Portfolio from "./Vue/pages/Portfolio.vue";
+// import Skills from "./Vue/pages/Skills.vue";
+import Projects from "./Vue/pages/Projects";
 import Contact from "./Vue/pages/Contact.vue";
 import Footer from "./Vue/pages/Footer.vue";
 
@@ -22,8 +22,8 @@ export default {
   components: {
     Header,
     About,
-    Skills,
-    Portfolio,
+    // Skills,
+    Projects,
     Contact,
     Footer,
   },

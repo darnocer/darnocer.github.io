@@ -149,7 +149,7 @@ header {
   header a:link {
     color: #f0f0f0; }
   header #navbar-nav {
-    margin-top: 1.5rem; }
+    margin-top: 1rem; }
   header .navbar-brand {
     font-size: 1.5rem; }
   header #FirstName {
@@ -158,6 +158,9 @@ header {
     color: #03957d; }
   header #Logo {
     max-height: 1.8rem; }
+  header #btn--blog {
+    transform: translateY(-0.3rem);
+    margin-left: 0.3rem; }
   header .active-nav a,
   header .active-nav a:hover {
     text-decoration: underline;
@@ -229,20 +232,20 @@ header {
   #skills #skill-container .skill-content {
     margin-top: 1rem; }
 
-#portfolio .container-fluid {
+#projects .container-fluid {
   margin: 4rem auto; }
 
-#portfolio .portfolio-item {
+#projects .portfolio-item {
   box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: relative; }
-  #portfolio .portfolio-item a {
+  #projects .portfolio-item a {
     text-decoration: none; }
-  #portfolio .portfolio-item h3 {
+  #projects .portfolio-item h3 {
     font-size: 1.2rem; }
-  #portfolio .portfolio-item img {
+  #projects .portfolio-item img {
     width: 100%;
     display: block; }
-  #portfolio .portfolio-item .overlay {
+  #projects .portfolio-item .overlay {
     position: absolute;
     padding: inherit;
     top: 0;
@@ -251,7 +254,7 @@ header {
     opacity: 0;
     transition: 0.5s ease;
     background-color: #333333; }
-    #portfolio .portfolio-item .overlay .portfolio-item-content {
+    #projects .portfolio-item .overlay .portfolio-item-content {
       position: absolute;
       top: 0;
       bottom: 0;
@@ -260,7 +263,7 @@ header {
       padding: 2rem;
       margin: 0 auto;
       vertical-align: middle; }
-  #portfolio .portfolio-item:hover .overlay {
+  #projects .portfolio-item:hover .overlay {
     opacity: 0.95;
     cursor: pointer; }
 

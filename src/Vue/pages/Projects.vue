@@ -1,5 +1,5 @@
 <template>
-  <section id="portfolio" class="dark-section">
+  <section id="projects" class="dark-section">
     <div class="container-fluid">
       <h1 class="section-header">{{ heading }}</h1>
 

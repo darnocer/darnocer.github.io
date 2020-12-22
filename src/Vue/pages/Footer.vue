@@ -9,11 +9,11 @@
       <li class="list-inline-item">
         <a class="nav-item nav-link" href="#about">About</a>
       </li>
-      <li class="list-inline-item">
+      <!-- <li class="list-inline-item">
         <a class="nav-item nav-link" href="#skills">Skills</a>
-      </li>
+      </li> -->
       <li class="list-inline-item">
-        <a class="nav-item nav-link" href="#portfolio">portfolio</a>
+        <a class="nav-item nav-link" href="#projects">projects</a>
       </li>
       <li class="list-inline-item">
         <a class="nav-item nav-link" href="#contact">Contact</a>

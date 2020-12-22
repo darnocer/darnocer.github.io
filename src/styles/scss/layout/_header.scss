@@ -19,7 +19,7 @@ header {
   }
 
   #navbar-nav {
-    margin-top: $space-lg;
+    margin-top: $spacer-sm;
   }
 
   .navbar-brand {
@@ -36,6 +36,11 @@ header {
 
   #Logo {
     max-height: $logo-height;
+  }
+
+  #btn--blog {
+    transform: translateY(-0.3rem);
+    margin-left: 0.3rem;
   }
 
   .active-nav {
