@@ -34,26 +34,6 @@ body {
 .dark-bg {
   background-color: #1b1b1b; }
 
-.btn,
-.btn-resume,
-.btn-submit,
-.btn-success {
-  background-color: #03957d;
-  border-color: transparent;
-  color: #f0f0f0; }
-  .btn:hover, .btn:focus, .btn:active,
-  .btn-resume:hover,
-  .btn-resume:focus,
-  .btn-resume:active,
-  .btn-submit:hover,
-  .btn-submit:focus,
-  .btn-submit:active,
-  .btn-success:hover,
-  .btn-success:focus,
-  .btn-success:active {
-    background-color: #026d5b;
-    color: #e3e3e3; }
-
 .test {
   border: 2px solid red; }
 
@@ -168,6 +148,8 @@ header {
   text-align: center; }
   header a:link {
     color: #f0f0f0; }
+  header #navbar-nav {
+    margin-top: 1.5rem; }
   header .navbar-brand {
     font-size: 1.5rem; }
   header #FirstName {
@@ -214,18 +196,31 @@ header {
     font-size: 1.5rem;
     padding: 0 2rem; }
 
-#about .profile-pic {
-  max-width: 100%;
-  max-height: 300px;
-  border-radius: 50%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-
-#about .tagline {
-  font-size: 1.5rem; }
-
-#about #about-content {
-  text-align: justify;
-  font-size: 1rem; }
+#about {
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/images/header-background.jpg); }
+  #about .profile-pic {
+    max-width: 100%;
+    max-height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 1rem; }
+  #about .tagline {
+    font-size: 1.5rem; }
+  #about #bio {
+    text-align: justify;
+    font-size: 1rem; }
+  #about #about-content {
+    margin: 2rem;
+    line-height: 1.6rem;
+    border-left: 3px solid rgba(3, 149, 125, 0.3);
+    background-color: rgba(255, 255, 255, 0.2);
+    /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    /* For the fog-like glass effect */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px); }
+  #about #facts {
+    margin: 2rem; }
 
 #skills #skill-container {
   margin: 2rem auto;
@@ -288,20 +283,6 @@ header {
 #contact .branding,
 #contact .pitch-text {
   display: none; }
-
-#contact .btn,
-#contact .btn-resume,
-#contact .btn-submit,
-#contact .btn-success {
-  background-color: #03957d;
-  border-color: transparent;
-  color: #f0f0f0; }
-  #contact .btn:hover,
-  #contact .btn-resume:hover,
-  #contact .btn-submit:hover,
-  #contact .btn-success:hover {
-    background-color: #026d5b;
-    color: #e3e3e3; }
 
 #contact .contact-form {
   margin-top: 2rem; }

@@ -18,6 +18,10 @@ header {
     color: $light-color;
   }
 
+  #navbar-nav {
+    margin-top: $space-lg;
+  }
+
   .navbar-brand {
     font-size: $font-size-lg;
   }

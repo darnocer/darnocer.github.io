@@ -25,8 +25,10 @@
           <li><a class="nav-item nav-link" href="#skills">Skills</a></li>
           <li><a class="nav-item nav-link" href="#portfolio">Portfolio</a></li>
           <li><a class="nav-item nav-link" href="#contact">Contact</a></li>
-          <li><a href="https://blog.darnocer.io" target="_blank" alt="Darian's Blog"><button class="nav-item btn btn--color">Blog <i class="fas fa-external-link-alt"></i></button></a></li>
+          
         </ul>
+        <ul class="navbar-nav">
+          <li><a href="https://blog.darnocer.io" target="_blank" alt="Darian's Blog"><button class="nav-item nav-link btn btn--color" id="btn--blog">Blog <i class="fas fa-external-link-alt"></i></button></a></li></ul>
       </div>
     </nav>
     <Banner />

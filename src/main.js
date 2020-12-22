@@ -13,9 +13,9 @@ new Vue({
 var lastId,
   topMenu = $("#navbar-nav"),
   topMenuHeight = topMenu.outerHeight() + 1,
-  // // All list items
+  // All list items
   menuItems = topMenu.find("a"),
-  // // Anchors corresponding to menu items
+  // Anchors corresponding to menu items
   scrollItems = menuItems.map(function() {
     var item = $($(this).attr("href"));
     if (item.length) {
@@ -33,6 +33,7 @@ $("#navbar-nav li").each(function() {
   );
 });
 sections = sections.map((x) => x.slice(1));
+console.log(sections);
 
 // Bind to scroll
 $(window).on("scroll", function() {
