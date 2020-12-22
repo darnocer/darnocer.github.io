@@ -26,7 +26,7 @@
         :key="i"
         class="social-item list-inline-item"
       >
-        <a :href="item.url" :alt="item.name">
+        <a :href="item.url" target="_blank" :alt="item.name">
           <i :class="item.faClass"> </i>
         </a>
       </li>
