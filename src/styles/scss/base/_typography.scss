@@ -70,11 +70,7 @@ a {
 
 .arrow-icon {
   i {
-    // text-transform: uppercase;
-    // color: $grey-color;
-    // font-weight: bold;
     position: relative;
-    // display: inline-block;
     overflow: hidden;
     background: linear-gradient(
       to right,
@@ -92,7 +88,6 @@ a {
     &:hover {
       cursor: pointer;
       text-decoration: none;
-      // color: $accent-color;
       background-position: 0 100%;
     }
   }
