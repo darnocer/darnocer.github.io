@@ -180,14 +180,21 @@
 
       {
         "title": "The Underdog Foundation",
-        "description": "Website for The Underdog Foundation, a 501(c)(3) non-profit organization.",
+        "description": "Website for The Underdog Foundation, a 501(c)(3) non-profit organization that provides business development services to small, local businesses free of charge.",
         "image": "theunderdogfoundation.png",
         "link": "https://www.theunderdogfoundation.org",
         "filter": "design"
       },
       {
+        "title": "Welton Street Cafe",
+        "description": "Website for the famous & historic Welton Street Cafe in Five Points, Denver.",
+        "image": "weltonstreet.png",
+        "link": "https://www.weltonstreetcafe.com",
+        "filter": "design"
+      },
+      {
         "title": "Genna Rae's Wings & More",
-        "description": "Website for Genna Rae's Wings",
+        "description": "Website for Genna Rae's Wings, a wing shop in Denver, CO.",
         "image": "gennaraeswings.png",
         "link": "https://www.gennaraeswings.com",
         "filter": "design"

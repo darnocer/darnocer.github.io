@@ -84,6 +84,21 @@ a {
     text-decoration: none;
     color: #03957d; }
 
+.arrow-icon i {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to right, #03957d, #03957d 50%, #747474 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.5s ease; }
+  .arrow-icon i:hover {
+    cursor: pointer;
+    text-decoration: none;
+    background-position: 0 100%; }
+
 .section-header {
   text-decoration: underline;
   text-decoration-color: #03957d;
