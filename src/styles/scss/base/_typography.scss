@@ -95,6 +95,12 @@ a {
 
 .section-header {
   @include thick-underline(0.375rem);
+
+  text-align: center;
+}
+
+.subheading {
+  text-align: center;
 }
 
 p {

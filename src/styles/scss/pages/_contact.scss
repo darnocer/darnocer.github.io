@@ -10,6 +10,11 @@
 
   .contact-content {
     padding: $spacer-sm;
+    margin-top: $spacer;
+  }
+
+  .list-group {
+    padding: 0 $spacer-lg;
   }
 
   .arrow-container {

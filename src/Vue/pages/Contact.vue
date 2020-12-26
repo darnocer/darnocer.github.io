@@ -4,12 +4,12 @@
       <h1 class="section-header">{{ heading }}</h1>
       <div class="row">
         <div
-          class="col-sm-12 col-md-6 flex-col"
+          class="col-sm-12 col-md-6 flex-col contact-content"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
-          <div class="contact-content">
-            <h2>Connect with Me</h2>
+          
+            <h2 class="subheading">Connect with Me</h2>
             <div class="contact-text">{{ contact.text }}</div>
 
             <div class="contact-info">
@@ -49,30 +49,34 @@
               
                 <li class="list-group-item">
                   <h3 class="d-inline">
-                    <i class="fas fa-hand-holding-heart"></i> SUPPORT:
+                    <i class="fas fa-hand-holding-heart"></i> Support:
                   </h3>
                   <a href="http://www.theunderdogfoundation.org" target="_blank"
                     >The Underdog Foundation</a
                   >
                 </li>
-                 <li class="list-group-item" v-if="contact.resumeLink !==''">
-                  <a :href="contact.resumeLink" target="_blank" alt="resume">
-                  <button class="btn btn--color"  target="_blank">
-                    <i class="far fa-file-pdf"></i> Resume
-                  </button>
-                  </a>
 
+                <li class="list-group-item">
+                  <h3 class="d-inline">
+                    <i class="far fa-file-pdf"></i>  Resume:
+                  </h3>
+                  <a :href="contact.resumeLink" target="_blank" alt="resume" class="secondary-btn">
+                  PDF here <i class="fas fa-chevron-right fa-xs"></i>
+                  </a>
                 </li>
+
+
+                
               </ul>
             </div>
-          </div>
+          
         </div>
         <div
-          class="col-sm-12 col-md-6 flex-col"
+          class="col-sm-12 col-md-6 flex-col contact-content"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
-          <h2>Send Me A Message</h2>
+          <h2 class="subheading">Send Me A Message</h2>
 
 
 <div class="container contact-form">
@@ -113,18 +117,6 @@
     </button>
   </form>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
       </div>
     </div>
