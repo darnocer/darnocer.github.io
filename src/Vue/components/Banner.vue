@@ -13,7 +13,7 @@
 import data from "../../data/data.json";
 import Typewriter from "typewriter-effect/dist/core";
 
-var titles = data.main.titles;
+// var titles = data.main.titles;
 // var description = data.main.description;
 
 export default {
@@ -36,7 +36,9 @@ export default {
       deleteSpeed: 5,
     });
 
-typewriter.pauseFor(600).typeString(titles[0]).pauseFor(100).deleteAll(5).typeString(titles[1]).pauseFor(100).deleteAll(5).typeString(titles[2]).pauseFor(100).deleteAll(5).typeString(titles[3]).start()
+// typewriter.pauseFor(600).typeString(titles[0]).pauseFor(100).deleteAll(5).typeString(titles[1]).pauseFor(100).deleteAll(5).typeString(titles[2]).pauseFor(100).deleteAll(5).typeString(titles[3]).start()
+
+typewriter.pauseFor(600).typeString("I know how to get $#!+ done.").start();
     
   },
 };
