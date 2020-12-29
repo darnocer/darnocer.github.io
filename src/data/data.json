@@ -16,12 +16,34 @@
     }
   },
   "about": {
-    "bio": "Darian Nocera is a Front-End Web Developer leveraging over 5 years of diverse technical experience. She began her coding journey in 2020 by completing a Full Stack Boot Camp, but has always taken in an interest in technology, programming, & design. She graduated with a degree in biomedical engineering, and went on to work with a top healthcare technology company as a technical project manager & a technical support consultant. In 2020, she joined <a href='https://www.theunderdogfoundation.org' target='_blank'>The Underdog Foundation</a> as VP of Technical Operations, managing & designing websites for small businesses impacted by the COVID-19 pandemic. When she's not coding, you can find her camping, hiking, mountain biking, practicing yoga, writing, reading, tending to her houseplants, or traveling.",
+    "bio": "My Name is Darian Nocera. I'm a Front-End Web Developer leveraging over 5 years of diverse technical experience. I enjoy wearing many hats and am interested in learning about all things tech. When I'm not coding, you can find me camping, hiking, mountain biking, practicing yoga, writing, reading, tending to my houseplants, or traveling.",
     "facts": [
       { "name": "Hometown", "value": "Pittsburgh, PA" },
       { "name": "Alma Mater", "value": "Penn State University" },
       { "name": "Sun Sign", "value": "Aquarius" },
       { "name": "Pizza Toppings", "value": "Hawaiian" }
+    ], 
+    "timeline": [
+      {
+        "year": "2020",
+        "title": "The Start",
+        "description": "I graduated from Penn State University in 2015 a B.S. in Biomedical Engineering. Wanting to work in health"
+      },
+      {
+        "year": "2020",
+        "title": "Professional Experience",
+        "description": "I started as a Quality Assurance Specialist at a software company leading in the electronic health record industry. I then transitioned to be a project manager for the software implementations, leading small teams to success. I am currently a consultant that assists with post-live optimization & technical support of the same system."
+      },
+      {
+        "year": "2020",
+        "title": "Web Development",
+        "description": "After taking several computer science classes in college, and teaching myself pieces of various languages throughout the years, I decided to get serious about becoming a web developer. In 2020, I graduated a Full Stack Web Development Boot Camp. I am continuing to work on personal projects, solidify concepts, & learn new technologies."
+      },
+      {
+        "year": "2020",
+        "title": "Web Design",
+        "description": "I joined The Underdog Foundation as the Vice President & Technical Lead. Through this cause, I have had the pleasure to donate my time to designing websites for small, local businesses impacted by the COVID-19 pandemic. Working with a variety of small businesses has given me invaluable knowledge content writing, UI/UX design, responsive design, SEO, & more."
+      }
     ]
   },
   "skills": {
@@ -133,7 +155,7 @@
         "title": "HelpersConnect",
         "description": "A MERN-stack app that allows charitable organizations to manage events and volunteers.",
         "image": "helpersconnect.png",
-        "link": "https://project-03-volunteer-calendar.herokuapp.com/",
+        "link": "https://helpers-connect.herokuapp.com/",
         "source": "https://github.com/darnocer/HelpersConnect",
         "filter": "full-stack"
       },
@@ -205,7 +227,7 @@
     "text": "",
     "city": "Denver, Colorado",
     "email": "hello@dariannocera.com",
-    "resumeLink": "https://drive.google.com/file/d/1ZoQWPtsZqrEQOVh3a8kiyyR3wDog7IqP/view",
+    "resumeLink": "https://drive.google.com/file/d/1jbS3s_vg7EuOXJKlpkw6EK5jhPC8j8Us/view",
 
     "social": [
       {

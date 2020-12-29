@@ -84,27 +84,16 @@ a {
     text-decoration: none;
     color: #03957d; }
 
-.arrow-icon i {
-  position: relative;
-  overflow: hidden;
-  background: linear-gradient(to right, #03957d, #03957d 50%, #747474 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 200% 100%;
-  background-position: 100%;
-  transition: background-position 0.5s ease; }
-  .arrow-icon i:hover {
-    cursor: pointer;
-    text-decoration: none;
-    background-position: 0 100%; }
-
 .section-header {
   text-decoration: underline;
   text-decoration-color: #03957d;
   text-decoration-thickness: 0.375rem;
   padding-bottom: 2rem;
-  text-underline-position: under; }
+  text-underline-position: under;
+  text-align: center; }
+
+.subheading {
+  text-align: center; }
 
 p {
   font-family: "Karla", sans-serif;
@@ -134,7 +123,6 @@ section {
   min-height: 100%;
   width: 100%;
   background-size: cover;
-  text-align: center;
   position: relative;
   padding: 1rem; }
   section .container-fluid {
@@ -219,11 +207,12 @@ header {
     padding: 2rem; }
   #about #bio {
     text-align: justify;
-    font-size: 1rem; }
+    font-size: 1rem;
+    padding: 1rem; }
   #about #about-content {
-    margin: 2rem;
     line-height: 1.6rem;
-    border-left: 3px solid rgba(3, 149, 125, 0.3);
+    padding: 1rem;
+    border-left: 5px solid rgba(3, 149, 125, 0.3);
     background-color: rgba(255, 255, 255, 0.2);
     /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -282,7 +271,11 @@ header {
   margin-top: 2rem; }
 
 #contact .contact-content {
-  padding: 1rem; }
+  padding: 1rem;
+  margin-top: 2rem; }
+
+#contact .list-group {
+  padding: 0 4rem; }
 
 #contact .arrow-container {
   padding: 1rem; }
@@ -384,6 +377,21 @@ header {
     .arrow-container .arrow-icon a {
       color: #f0f0f0; }
 
+.arrow-icon i {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to right, #03957d, #03957d 50%, #747474 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.5s ease; }
+  .arrow-icon i:hover {
+    cursor: pointer;
+    text-decoration: none;
+    background-position: 0 100%; }
+
 .btn,
 .btn--color {
   background-color: #03957d;
@@ -395,6 +403,21 @@ header {
   .btn--color:active {
     background-color: #026d5b;
     color: #e3e3e3; }
+
+.secondary-btn {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to right, #03957d, #03957d 50%, #747474 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.5s ease; }
+  .secondary-btn:hover {
+    cursor: pointer;
+    text-decoration: none;
+    background-position: 0 100%; }
 
 .filters a {
   padding: 1rem; }
@@ -411,3 +434,46 @@ header {
 
 .list-inline-item {
   padding: 0.2rem 0; }
+
+.year {
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #f0f0f0; }
+
+.timeline-item {
+  padding: 2rem 2rem 1rem;
+  border-left: 5px solid #03957d; }
+  .timeline-item .timeline-content h2,
+  .timeline-item .timeline-content p {
+    text-align: left; }
+  .timeline-item::after {
+    content: "";
+    color: black;
+    border: 5px solid #03957d;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: 2rem;
+    left: -1.2rem;
+    border-radius: 50%;
+    background-color: #f0f0f0; }
+  .timeline-item:hover {
+    cursor: pointer; }
+    .timeline-item:hover.frosted {
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px); }
+    .timeline-item:hover::after {
+      transform: scale(1.2);
+      transition: all 1s; }
+  .timeline-item:last-child {
+    border-image: linear-gradient(to bottom, #03957d 60%, rgba(3, 149, 125, 0)) 1 100%; }
+  .timeline-item:first-child {
+    border-image: linear-gradient(to top, #03957d 60%, rgba(3, 149, 125, 0)) 1 100%; }
+
+.frosted {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0px 3rem 0 rgba(0, 0, 0, 0.4);
+  /* For the fog-like glass effect */
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px); }

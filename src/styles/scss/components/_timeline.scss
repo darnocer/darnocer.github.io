@@ -1,0 +1,70 @@
+.year {
+  font-family: $body-font;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: $light-color;
+}
+
+.timeline-item {
+  padding: ($spacer) $spacer $spacer-sm;
+  border-left: $border-thickness solid $accent-color;
+  .timeline-content {
+    h2,
+    p {
+      text-align: left;
+    }
+  }
+
+  &::after {
+    content: "";
+    color: black;
+    border: $border-thickness solid $accent-color;
+    height: 2rem;
+    width: 2rem;
+    position: absolute;
+    top: 2rem;
+    left: -1.2rem;
+    border-radius: 50%;
+    background-color: $light-color;
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    &.frosted {
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+
+    &::after {
+      transform: scale(1.2);
+      transition: all 1s;
+    }
+  }
+
+  &:last-child {
+    border-image: linear-gradient(
+        to bottom,
+        $accent-color 60%,
+        rgba($accent-color, 0)
+      )
+      1 100%;
+  }
+
+  &:first-child {
+    border-image: linear-gradient(
+        to top,
+        $accent-color 60%,
+        rgba($accent-color, 0)
+      )
+      1 100%;
+  }
+}
+
+.frosted {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0px 3rem 0 rgba(0, 0, 0, 0.4);
+  /* For the fog-like glass effect */
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}

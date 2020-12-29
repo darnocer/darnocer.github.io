@@ -22,13 +22,15 @@
   #bio {
     text-align: justify;
     font-size: $font-size-md;
+    padding: $spacer-sm;
   }
 
   #about-content {
-    margin: $spacer;
+    // margin: $spacer;
     line-height: 1.6rem;
+    padding: $spacer-sm;
     // background: rgba(0, 0, 0, 0.3);
-    border-left: 3px solid rgba($accent-color, 0.3);
+    border-left: $border-thickness solid rgba($accent-color, 0.3);
 
     background-color: rgba(255, 255, 255, 0.2);
     /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */

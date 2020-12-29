@@ -12,3 +12,26 @@
     color: darken($light-color, 5%);
   }
 }
+
+.secondary-btn {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(
+    to right,
+    $accent-color,
+    $accent-color 50%,
+    $grey-color 50%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.5s ease;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: none;
+    background-position: 0 100%;
+  }
+}

@@ -1,8 +1,8 @@
 <template>
- <section id="about" class="dark-section">
+  <section id="about" class="dark-section">
     <div class="container-fluid">
       <h1 class="section-header">{{ heading }}</h1>
-      <div class="row justify-content-center">
+      <div class="row">
         <div
           class="col-sm-12 col-md-6 flex-col"
           data-aos="fade-right"
@@ -22,20 +22,24 @@
         </div>
   
 
-        
-
-        <!-- <div
-          class="col-sm-12 col-md-4 flex-col"
+       <div
+          class="col-sm-12 col-md-6 flex-col"
+          id="timeline"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
-          <ul class="list-group list-group-flush">
-            <li v-for="item in facts" :key="item.name" class="list-group-item">
-              <h3 class="d-inline">{{ item.name }}: </h3>
-              <br class="d-md-none" />{{ item.value }}
-            </li>
-          </ul>
-        </div> -->
+          <div class="timeline">
+            <div v-for="item in timeline" :key="item.name" class="timeline-item frosted">
+              <div class="timeline-content">
+              <h3 class="year">{{item.year}}</h3>
+              <h2>{{item.title}}</h2>
+              <p>{{item.description}}</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div> 
       </div>
     </div>
 
@@ -58,6 +62,7 @@ export default {
       about: data.about,
       name: data.main.name.first,
       facts: data.about.facts,
+      timeline: data.about.timeline,
       heading: data.main.headings.about,
     };
   },
