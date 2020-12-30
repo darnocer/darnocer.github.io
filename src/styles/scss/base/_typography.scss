@@ -47,19 +47,22 @@ h1 {
 h2 {
   @extend %uppercase-heading;
   font-family: $body-font;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 h3 {
   @extend %uppercase-heading;
   font-family: $body-font;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
 a {
   text-transform: uppercase;
   color: $grey-color;
+  &:not(.social-icon) {
+    font-weight: 600;
+  }
 
   &:hover {
     cursor: pointer;
@@ -70,7 +73,6 @@ a {
 
 .section-header {
   @include thick-underline(0.375rem);
-
   text-align: center;
 }
 
@@ -115,4 +117,37 @@ p {
 
 .footer {
   font-size: $font-size-sm;
+}
+
+.hover-effect {
+  position: relative;
+
+  &:before,
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 0px;
+    height: 3px;
+    margin: 5px 0 0;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.25s;
+    opacity: 0;
+    background-color: $accent-color;
+    // background: linear-gradient(
+    //   90deg,
+    //   rgba(133, 255, 123, 1) 0%,
+    //   rgba(3, 149, 125, 1) 100%
+    // );
+    left: 0;
+  }
+
+  &:hover {
+    color: $grey-color;
+    &:before,
+    &:after {
+      width: 100%;
+      opacity: 1;
+    }
+  }
 }

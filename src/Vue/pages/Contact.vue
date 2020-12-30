@@ -26,7 +26,7 @@
                     <i class="fa fa-envelope"></i> Email:
                   </h3>
                   <!-- <br class="d-md-none" /> -->
-                  <a href="mailto:hello@dariannocera.com">
+                  <a href="mailto:hello@dariannocera.com" class="hover-effect" alt="email">
                     <span>{{ contact.email }}</span>
                   </a>
                 </li>
@@ -41,7 +41,7 @@
                     :key="i"
                     class="social-item social-spacing list-inline-item"
                   >
-                    <a :href="item.url" target="_blank" :alt="item.name">
+                    <a :href="item.url" target="_blank" :alt="item.name" class="social-icon">
                       <i :class="item.faClass"> </i>
                     </a>
                   </div>
@@ -50,7 +50,7 @@
                   <h3 class="d-inline">
                     <i class="far fa-file-pdf"></i>  Resume:
                   </h3>
-                  <a :href="contact.resumeLink" target="_blank" alt="resume" class="secondary-btn">
+                  <a :href="contact.resumeLink" target="_blank" alt="resume" class="hover-effect">
                   PDF here <i class="fas fa-chevron-right fa-xs"></i>
                   </a>
                 </li>
@@ -59,7 +59,7 @@
                     <i class="fas fa-hand-holding-heart"></i> Support:
                   </h3>
                   <!-- <br class="d-md-none" /> -->
-                  <a href="http://www.theunderdogfoundation.org" target="_blank"
+                  <a href="http://www.theunderdogfoundation.org" target="_blank" class="hover-effect" alt="The Underdog Foundation Website"
                     >#TUF</a
                   >
                 </li>

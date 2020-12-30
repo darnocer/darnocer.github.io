@@ -67,16 +67,18 @@ h2, h3 {
 
 h2 {
   font-family: "Karla", sans-serif;
-  font-size: 1.5rem; }
+  font-size: 1.6rem; }
 
 h3 {
   font-family: "Karla", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: bold; }
 
 a {
   text-transform: uppercase;
   color: #747474; }
+  a:not(.social-icon) {
+    font-weight: 600; }
   a:hover {
     cursor: pointer;
     text-decoration: none;
@@ -120,6 +122,26 @@ p {
 
 .footer {
   font-size: 0.8rem; }
+
+.hover-effect {
+  position: relative; }
+  .hover-effect:before, .hover-effect:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 0px;
+    height: 3px;
+    margin: 5px 0 0;
+    transition: all 0.2s ease-in-out;
+    transition-duration: 0.25s;
+    opacity: 0;
+    background-color: #03957d;
+    left: 0; }
+  .hover-effect:hover {
+    color: #747474; }
+    .hover-effect:hover:before, .hover-effect:hover:after {
+      width: 100%;
+      opacity: 1; }
 
 section {
   min-height: 100%;
@@ -395,21 +417,6 @@ header {
   .btn--color:active {
     background-color: #026d5b;
     color: #e3e3e3; }
-
-.secondary-btn {
-  position: relative;
-  overflow: hidden;
-  background: linear-gradient(to right, #03957d, #03957d 50%, #747474 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 200% 100%;
-  background-position: 100%;
-  transition: background-position 0.5s ease; }
-  .secondary-btn:hover {
-    cursor: pointer;
-    text-decoration: none;
-    background-position: 0 100%; }
 
 .filters a {
   padding: 1rem; }
