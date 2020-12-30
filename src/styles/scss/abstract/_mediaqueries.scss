@@ -1,9 +1,8 @@
+// only on small/mobile screens
+
 @media only screen and (max-width: 767px) {
   #typewriter {
+    // this is smaller than title size
     font-size: $font-size-xl;
-  }
-
-  #about-content {
-    padding: 0.5rem;
   }
 }

@@ -89,6 +89,13 @@ p {
   font-weight: 600;
   font-size: $font-size-sm;
   color: $light-color;
+
+  #btn--blog {
+    text-transform: inherit;
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+  }
 }
 
 .banner-text {
