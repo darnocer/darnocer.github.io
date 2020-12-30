@@ -9,12 +9,8 @@
   }
 
   .contact-content {
-    padding: $spacer-sm;
+    // padding: $spacer-sm;
     margin-top: $spacer;
-  }
-
-  .list-group {
-    padding: 0 $spacer-lg;
   }
 
   .arrow-container {
@@ -24,11 +20,6 @@
   .section-header {
     padding: 0;
     margin: 0;
-  }
-
-  .branding,
-  .pitch-text {
-    display: none;
   }
 
   .contact-form {

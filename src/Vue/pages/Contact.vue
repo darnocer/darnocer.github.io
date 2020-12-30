@@ -18,14 +18,14 @@
                   <h3 class="d-inline">
                     <i class="fas fa-map-marker-alt"></i> Location:
                   </h3>
-                  <br class="d-md-none" />
+                  <!-- <br class="d-md-none" /> -->
                   <span>&nbsp; {{ contact.city }}</span>
                 </li>
                 <li class="list-group-item">
                   <h3 class="d-inline">
                     <i class="fa fa-envelope"></i> Email:
                   </h3>
-                  <br class="d-md-none" />
+                  <!-- <br class="d-md-none" /> -->
                   <a href="mailto:hello@dariannocera.com">
                     <span>{{ contact.email }}</span>
                   </a>
@@ -34,7 +34,7 @@
                   <h3 class="d-inline">
                     <i class="fas fa-user-plus"></i> Social:
                   </h3>
-                  <br class="d-md-none" />
+                  <!-- <br class="d-md-none" /> -->
 
                   <div
                     v-for="(item, i) in social"
@@ -46,17 +46,7 @@
                     </a>
                   </div>
                 </li>
-              
-                <li class="list-group-item">
-                  <h3 class="d-inline">
-                    <i class="fas fa-hand-holding-heart"></i> Support:
-                  </h3>
-                  <a href="http://www.theunderdogfoundation.org" target="_blank"
-                    >The Underdog Foundation</a
-                  >
-                </li>
-
-                <li class="list-group-item">
+               <li class="list-group-item">
                   <h3 class="d-inline">
                     <i class="far fa-file-pdf"></i>  Resume:
                   </h3>
@@ -64,6 +54,17 @@
                   PDF here <i class="fas fa-chevron-right fa-xs"></i>
                   </a>
                 </li>
+                <li class="list-group-item">
+                  <h3 class="d-inline">
+                    <i class="fas fa-hand-holding-heart"></i> Support:
+                  </h3>
+                  <!-- <br class="d-md-none" /> -->
+                  <a href="http://www.theunderdogfoundation.org" target="_blank"
+                    >#TUF</a
+                  >
+                </li>
+
+               
 
 
                 

@@ -271,11 +271,7 @@ header {
   margin-top: 2rem; }
 
 #contact .contact-content {
-  padding: 1rem;
   margin-top: 2rem; }
-
-#contact .list-group {
-  padding: 0 4rem; }
 
 #contact .arrow-container {
   padding: 1rem; }
@@ -283,10 +279,6 @@ header {
 #contact .section-header {
   padding: 0;
   margin: 0; }
-
-#contact .branding,
-#contact .pitch-text {
-  display: none; }
 
 #contact .contact-form {
   margin-top: 2rem; }
