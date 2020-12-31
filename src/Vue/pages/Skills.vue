@@ -1,7 +1,7 @@
 <template>
   <section id="skills" class="light-section">
     <div class="container-fluid">
-      <h1 class="section-header">{{ heading }}</h1>
+      <h1 class="section-heading">{{ heading }}</h1>
 
       <!-- start of filters  -->
       <div class="row filters">

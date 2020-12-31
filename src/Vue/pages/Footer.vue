@@ -2,21 +2,21 @@
   <footer class="footer section-dark font-small text-center">
     <ul class="list-inline">
       <li class="list-inline-item">
-        <a class="nav-item nav-link active" href="#">
+        <a class="nav-item nav-link active hover-effect" href="#">
           Home
         </a>
       </li>
       <li class="list-inline-item">
-        <a class="nav-item nav-link" href="#about">About</a>
+        <a class="nav-item nav-link hover-effect" href="#about">About</a>
       </li>
       <!-- <li class="list-inline-item">
         <a class="nav-item nav-link" href="#skills">Skills</a>
       </li> -->
       <li class="list-inline-item">
-        <a class="nav-item nav-link" href="#projects">projects</a>
+        <a class="nav-item nav-link hover-effect" href="#projects">projects</a>
       </li>
       <li class="list-inline-item">
-        <a class="nav-item nav-link" href="#contact">Contact</a>
+        <a class="nav-item nav-link hover-effect" href="#contact">Contact</a>
       </li>
     </ul>
 
@@ -26,7 +26,7 @@
         :key="i"
         class="social-item list-inline-item"
       >
-        <a :href="item.url" target="_blank" :alt="item.name">
+        <a :href="item.url" target="_blank" :alt="item.name" class="social-icon">
           <i :class="item.faClass"> </i>
         </a>
       </li>
@@ -43,6 +43,7 @@
       <p>
         Designed with 👽 by
         <a
+        class="hover-effect"
           id="username"
           href="https://www.github.com/darnocer"
           alt="Darian's Github"

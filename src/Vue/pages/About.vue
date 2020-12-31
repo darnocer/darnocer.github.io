@@ -1,7 +1,7 @@
 <template>
  <section id="about" class="dark-section">
     <div class="container-fluid">
-      <h1 class="section-header">{{ heading }}</h1>
+      <h1 class="section-heading">{{ heading }}</h1>
       <div class="row justify-content-center">
         <div
           class="col-sm-12 col-md-6 flex-col"

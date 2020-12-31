@@ -28,7 +28,7 @@
           
         </ul>
         <ul class="navbar-nav">
-          <li><a class="nav-item nav-link" href="https://blog.darnocer.io" target="_blank" alt="Darian's Blog"><button class="btn btn--color" id="btn--blog">Blog <i class="fas fa-external-link-alt"></i></button></a></li></ul>
+          <li><a href="https://blog.darnocer.io" target="_blank" alt="Darian's Blog"><button class="btn btn--color" id="btn--blog">Blog <i class="fas fa-external-link-alt"></i></button></a></li></ul>
       </div>
     </nav>
     <Banner />

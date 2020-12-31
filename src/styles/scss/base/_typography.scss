@@ -1,3 +1,4 @@
+// import serif font
 @font-face {
   font-family: "Freight Text Bold";
   src: url("../../assets/fonts/Freight Text/Freight Text Bold.eot"); /* IE9 Compat Modes */
@@ -10,19 +11,6 @@
       format("truetype"); /* Safari, Android, iOS */
 }
 
-@font-face {
-  font-family: "Freight Sans Book";
-  src: url("../../assets/fonts/Freight Text Sans/FreightSansBook.eot"); /* IE9 Compat Modes */
-  src: url("../../assets/fonts/Freight Text Sans/FreightSansBook.eot?#iefix")
-      format("embedded-opentype"),
-    /* IE6-IE8 */
-      url("../../assets/fonts/Freight Text Sans/FreightSansBook.woff")
-      format("woff"),
-    /* Modern Browsers */
-      url("../../assets/fonts/Freight Text Sans/FreightSansBook.ttf")
-      format("truetype"); /* Safari, Android, iOS */
-}
-
 html,
 body,
 #app {
@@ -31,31 +19,61 @@ body,
   color: $light-color;
 }
 
-%heading-font {
+// HEADINGS & BODY TEXT
+
+%heading {
   font-family: $heading-font;
 }
 
-%uppercase-heading {
+%subheading {
   text-transform: uppercase;
   color: $grey-color;
+  font-family: $body-font;
 }
 
 h1 {
-  @extend %heading-font;
+  @extend %heading;
 }
 
 h2 {
-  @extend %uppercase-heading;
-  font-family: $body-font;
-  font-size: 1.6rem;
+  @extend %subheading;
+  font-size: $font-size-lg;
 }
 
 h3 {
-  @extend %uppercase-heading;
-  font-family: $body-font;
-  font-size: 1.2rem;
+  @extend %subheading;
+  font-size: $font-size-md;
   font-weight: bold;
 }
+
+.section-heading {
+  @extend %heading;
+  @include thick-underline(0.375rem);
+  text-align: center;
+}
+
+p {
+  font-family: $body-font;
+  font-size: $font-size-base;
+  font-weight: 300;
+}
+
+// HERO TEXT
+
+.banner-text {
+  .display-text {
+    font-size: $title-size;
+    color: $light-color;
+  }
+
+  #greeting {
+    color: $accent-color;
+    font-weight: bold;
+    letter-spacing: -0.03rem;
+  }
+}
+
+// LINKS
 
 a {
   text-transform: uppercase;
@@ -67,60 +85,20 @@ a {
   &:hover {
     cursor: pointer;
     text-decoration: none;
-    color: $accent-color;
+    &:not(.btn--color) {
+      color: $accent-color;
+    }
   }
-}
-
-.section-header {
-  @include thick-underline(0.375rem);
-  text-align: center;
-}
-
-.subheading {
-  text-align: center;
-}
-
-p {
-  font-family: $body-font;
-  font-weight: 300;
 }
 
 .nav-item {
-  font-family: $body-font;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: $font-size-sm;
-  color: $light-color;
-
-  #btn--blog {
-    text-transform: inherit;
-    font-size: inherit;
-    color: inherit;
-    font-weight: inherit;
-  }
+  @include nav-item;
 }
 
-.banner-text {
-  color: $light-color;
-
-  .display-text {
-    font-size: $title-size;
-  }
-
-  .greeting-subtitle {
-    color: $accent-color;
-    font-weight: bold;
-    letter-spacing: -0.03rem;
-    font-size: $font-size-lg;
-  }
-}
-
-.footer {
-  font-size: $font-size-sm;
-}
-
+// underline effect on hover
 .hover-effect {
   position: relative;
+  padding-bottom: 0;
 
   &:before,
   &:after {

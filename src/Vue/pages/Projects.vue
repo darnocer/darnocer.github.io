@@ -1,7 +1,7 @@
 <template>
   <section id="projects" class="dark-section">
     <div class="container-fluid">
-      <h1 class="section-header">{{ heading }}</h1>
+      <h1 class="section-heading">{{ heading }}</h1>
 
       <!-- start of filters  -->
       <div class="row filters">
@@ -38,7 +38,7 @@
                 <div class="portfolio-item-content">
                   <h3>{{ item.title }}</h3>
                   <p>{{ item.description }}</p>
-                  <div v-if="item.source" class="link-icons">
+                  <div v-if="item.source" class="link-icons text-center">
                     <a :href="item.source" title="Source Code" target="_blank">
                       <i class="fas fa-code fa-2x"></i>
                     </a>

@@ -3,43 +3,26 @@ header {
   height: 100%;
   width: 100%;
   background: no-repeat center center fixed;
-  // background-image: linear-gradient(
-  //     to right bottom,
-  //     rgba(0, 0, 0, 0.5),
-  //     rgba(0, 0, 0, 0.5)
-  //   ),
-  //   url(../../assets/images/header-background.jpg);
   background-color: $dark-bg;
   background-size: cover;
   -webkit-background-size: cover;
   text-align: center;
 
-  a:link {
-    color: $light-color;
-  }
-
-  #navbar-nav {
-    margin-top: $spacer-sm;
-  }
-
+  // if no image logo
   .navbar-brand {
     font-size: $font-size-lg;
-  }
 
-  #FirstName {
-    color: $light-color;
-  }
+    #FirstName {
+      color: $light-color;
+    }
 
-  #LastName {
-    color: $accent-color;
+    #LastName {
+      color: $accent-color;
+    }
   }
 
   #Logo {
     max-height: $logo-height;
-  }
-
-  #btn--blog {
-    transform: translateY(0.4rem);
   }
 
   .active-nav {

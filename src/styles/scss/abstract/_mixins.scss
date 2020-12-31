@@ -12,3 +12,10 @@
   text-decoration-thickness: $thickness;
   text-underline-position: under;
 }
+
+@mixin nav-item {
+  font-size: $font-size-sm;
+  color: $light-color;
+  text-transform: uppercase;
+  font-weight: 600;
+}

@@ -1,7 +1,7 @@
 <template>
   <section id="contact" class="light-section">
     <div class="container-fluid">
-      <h1 class="section-header">{{ heading }}</h1>
+      <h1 class="section-heading">{{ heading }}</h1>
       <div class="row">
         <div
           class="col-sm-12 col-md-6 flex-col contact-content"
@@ -9,7 +9,7 @@
           data-aos-duration="1000"
         >
           
-            <h2 class="subheading">Connect with Me</h2>
+            <h2 class="text-center">Connect with Me</h2>
             <div class="contact-text">{{ contact.text }}</div>
 
             <div class="contact-info">
@@ -77,7 +77,7 @@
           data-aos="fade-right"
           data-aos-duration="1000"
         >
-          <h2 class="subheading">Send Me A Message</h2>
+          <h2 class="text-center">Send Me A Message</h2>
 
 
 <div class="container contact-form">

@@ -2,28 +2,12 @@
   background-color: $dark-bg;
   padding: $spacer-sm;
 
-  a {
-    i {
-      &:link {
-        color: $light-color;
-      }
-      &:hover {
-        color: $accent-color;
-      }
-    }
+  p {
+    font-size: $font-size-sm;
   }
 
   #username {
     text-transform: lowercase;
-
-    a {
-      &:link {
-        color: $light-color;
-      }
-      &:hover {
-        color: $accent-color;
-      }
-    }
   }
 
   .social-item {
