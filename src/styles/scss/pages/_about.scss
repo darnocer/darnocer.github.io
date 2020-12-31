@@ -21,12 +21,12 @@
 
   #bio {
     text-align: justify;
-    font-size: $font-size-md;
+    // font-size: $font-size-md;
     padding: $spacer-sm;
   }
 
   #about-content {
-    // margin: $spacer;
+    margin: $spacer-lg auto;
     line-height: 1.6rem;
     padding: $spacer-sm;
     // background: rgba(0, 0, 0, 0.3);
