@@ -1,4 +1,6 @@
 .filters {
+  margin: $spacer auto;
+
   a {
     padding: 1rem;
   }
@@ -8,7 +10,8 @@
   }
 
   .active {
-    color: $accent-color;
+    color: $light-color;
+    @include thick-underline(0.2rem);
   }
 }
 
