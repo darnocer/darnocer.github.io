@@ -64,6 +64,7 @@ p {
   .display-text {
     font-size: $title-size;
     color: $light-color;
+    text-shadow: 3px 3px #333;
   }
 
   #greeting {
