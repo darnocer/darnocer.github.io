@@ -2,75 +2,16 @@
   <section id="contact" class="light-section">
     <div class="container-fluid">
       <h1 class="section-heading">{{ heading }}</h1>
-      <div class="row">
+      <div class="row justify-content-center">
         <div
           class="col-sm-12 col-md-6 flex-col contact-content"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
-          
-            <h2 class="text-center">Connect with Me</h2>
-            <div class="contact-text">{{ contact.text }}</div>
+        <div class="responsive-img">
+        <img src="../../assets/images/graphics/treeswing.svg"/>
+        </div>
 
-            <div class="contact-info">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">
-                  <h3 class="d-inline">
-                    <i class="fas fa-map-marker-alt"></i> Location:
-                  </h3>
-                  <!-- <br class="d-md-none" /> -->
-                  <span>&nbsp; {{ contact.city }}</span>
-                </li>
-                <li class="list-group-item">
-                  <h3 class="d-inline">
-                    <i class="fa fa-envelope"></i> Email:
-                  </h3>
-                  <!-- <br class="d-md-none" /> -->
-                  <a href="mailto:hello@dariannocera.com" class="hover-effect" alt="email">
-                    <span>{{ contact.email }}</span>
-                  </a>
-                </li>
-                <li class="list-group-item">
-                  <h3 class="d-inline">
-                    <i class="fas fa-user-plus"></i> Social:
-                  </h3>
-                  <!-- <br class="d-md-none" /> -->
-
-                  <div
-                    v-for="(item, i) in social"
-                    :key="i"
-                    class="social-item social-spacing list-inline-item"
-                  >
-                    <a :href="item.url" target="_blank" :alt="item.name" class="social-icon">
-                      <i :class="item.faClass"> </i>
-                    </a>
-                  </div>
-                </li>
-               <li class="list-group-item">
-                  <h3 class="d-inline">
-                    <i class="far fa-file-pdf"></i>  Resume:
-                  </h3>
-                  <a :href="contact.resumeLink" target="_blank" alt="resume" class="hover-effect">
-                  PDF here <i class="fas fa-chevron-right fa-xs"></i>
-                  </a>
-                </li>
-                <li class="list-group-item">
-                  <h3 class="d-inline">
-                    <i class="fas fa-hand-holding-heart"></i> Support:
-                  </h3>
-                  <!-- <br class="d-md-none" /> -->
-                  <a href="http://www.theunderdogfoundation.org" target="_blank" class="hover-effect" alt="The Underdog Foundation Website"
-                    >#TUF</a
-                  >
-                </li>
-
-               
-
-
-                
-              </ul>
-            </div>
-          
         </div>
         <div
           class="col-sm-12 col-md-6 flex-col contact-content"

@@ -7,16 +7,19 @@
         </a>
       </li>
       <li class="list-inline-item">
-        <a class="nav-item nav-link hover-effect" href="#about">About</a>
+        <a class="nav-item nav-link hover-effect" :href="'mailto:'+ email" :title="email">Email</a>
       </li>
       <!-- <li class="list-inline-item">
         <a class="nav-item nav-link" href="#skills">Skills</a>
       </li> -->
       <li class="list-inline-item">
-        <a class="nav-item nav-link hover-effect" href="#projects">projects</a>
+        <a class="nav-item nav-link hover-effect" :href="resume" target="_blank">Resume</a>
       </li>
       <li class="list-inline-item">
-        <a class="nav-item nav-link hover-effect" href="#contact">Contact</a>
+        <a class="nav-item nav-link hover-effect" :href="blog" target="_blank">Blog</a>
+      </li>
+      <li class="list-inline-item">
+        <a class="nav-item nav-link hover-effect" href="https://www.theunderdogfoundation.org" target="_blank">#TUF</a>
       </li>
     </ul>
 
@@ -65,6 +68,10 @@ export default {
     return {
       text: data,
       social: data.contact.social,
+      resume: data.contact.resumeLink,
+      email: data.contact.email,
+      blog: data.contact.blog,
+      location: data.contact.location
     };
   },
 };

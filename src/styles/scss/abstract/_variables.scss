@@ -34,9 +34,15 @@ $profile-pic-height: 150px;
 $profile-pic-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
   0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+$border-radius: 5px;
+$box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 // skill bars gradient colors
 $level-color-1: #f12711;
 $level-color-2: #f5ba19;
 
 // timeline
 $border-thickness: 5px;
+
+// about section image opacity
+$opacity: 0.7;

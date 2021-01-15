@@ -1,11 +1,11 @@
 // styling specific to the portfolio section
 #projects {
   .container-fluid {
-    margin: 4rem auto;
+    margin: 2rem auto;
   }
 
   .portfolio-item {
-    box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: $box-shadow;
     position: relative;
 
     a {
@@ -19,6 +19,7 @@
     img {
       width: 100%;
       display: block;
+      border-radius: $border-radius;
     }
 
     .overlay {

@@ -9,14 +9,14 @@
     "description": "I know how to get $#!+ done.",
     "titles": ["I code $#!+.", "I design $#!+.","I write $#!+.", "I get $#!+ done."],
     "headings": {
-      "about": "About Ya Gurl",
+      "about": "About",
       "skills": "Skillz That Killz",
-      "projects": "Projects",
+      "projects": "Works",
       "contact": "Holla @ Me"
     }
   },
   "about": {
-    "bio": "My Name is Darian Nocera. I'm a Front-End Web Developer leveraging over 5 years of diverse technical experience. I enjoy wearing many hats and am interested in learning about all things tech. When I'm not coding, you can find me camping, hiking, mountain biking, practicing yoga, writing, reading, tending to my houseplants, or traveling.",
+    "bio": "My Name is Darian Nocera. I'm a Denver-based Front-End Web Developer with over 5 years of diverse technical experience. When I'm not coding, you can find me camping, hiking, mountain biking, practicing yoga, writing, reading, meditating, tending to my houseplants, or traveling.",
     "facts": [
       { "name": "Hometown", "value": "Pittsburgh, PA" },
       { "name": "Alma Mater", "value": "Penn State University" },
@@ -25,24 +25,24 @@
     ], 
     "timeline": [
       {
-        "year": "2020",
-        "title": "The Start",
-        "description": "I graduated from Penn State University in 2015 a B.S. in Biomedical Engineering. Wanting to work in health"
+        "year": "Dec 2015",
+        "title": "Education",
+        "description": "I graduated from Penn State University with a degree in Biomedical Engineering."
       },
       {
-        "year": "2020",
+        "year": "Feb 2016 - Present",
         "title": "Professional Experience",
-        "description": "I started as a Quality Assurance Specialist at a software company leading in the electronic health record industry. I then transitioned to be a project manager for the software implementations, leading small teams to success. I am currently a consultant that assists with post-live optimization & technical support of the same system."
+        "description": "I work for a leading healthcare technology company, starting out testing the software, transitioning to project management for software implementations, as well as technical support, & consulting."
       },
       {
-        "year": "2020",
+        "year": "Sept 2020 - Present",
         "title": "Web Development",
-        "description": "After taking several computer science classes in college, and teaching myself pieces of various languages throughout the years, I decided to get serious about becoming a web developer. In 2020, I graduated a Full Stack Web Development Boot Camp. I am continuing to work on personal projects, solidify concepts, & learn new technologies."
+        "description": "I had been interested in programming for many years. I finally decided to complete a Full Stack Web Development Boot Camp and realized my passion for front-end development. I am working on a new website for my current company and continuing to expand my development knowledge daily."
       },
       {
-        "year": "2020",
-        "title": "Web Design",
-        "description": "I joined The Underdog Foundation as the Vice President & Technical Lead. Through this cause, I have had the pleasure to donate my time to designing websites for small, local businesses impacted by the COVID-19 pandemic. Working with a variety of small businesses has given me invaluable knowledge content writing, UI/UX design, responsive design, SEO, & more."
+        "year": "Jul 2020 - Present",
+        "title": "Web Design & Technical Management",
+        "description": "I volunteer my time as the Vice President & Technical Lead for The Underdog Foundation, designing websites and coordinating technical efforts to help small, local businesses impacted by the COVID-19 pandemic that need a little extra support."
       }
     ]
   },
@@ -150,6 +150,50 @@
   },
   "portfolio": {
     "defaultFilter": "front-end",
+    "skills": [
+      {
+        "name": "Git",
+        "image": "git"
+      },
+      {
+        "name": "Adobe Illustator",
+        "image": "illustrator"
+      },
+      {
+        "name": "Javascript",
+        "image": "javascript"
+      },
+      {
+        "name": "Node.js",
+        "image": "nodejs"
+      },
+      {
+        "name": "React",
+        "image": "react"
+      },
+      {
+        "name": "Sass",
+        "image": "sass"
+      },
+      {
+        "name": "VSCode",
+        "image": "vscode"
+      },
+      {
+        "name": "Vue",
+        "image": "vue"
+      },
+      {
+        "name": "Netlify",
+        "image": "netlify"
+      },
+      {
+        "name": "Bootstrap",
+        "image": "bootstrap"
+      }
+
+
+    ],
     "projects": [
       {
         "title": "HelpersConnect",
@@ -225,8 +269,9 @@
   },
   "contact": {
     "text": "",
-    "city": "Denver, Colorado",
+    "location": "Denver, Colorado",
     "email": "hello@dariannocera.com",
+    "blog": "https://blog.darnocer.io",
     "resumeLink": "https://drive.google.com/file/d/1jbS3s_vg7EuOXJKlpkw6EK5jhPC8j8Us/view",
 
     "social": [

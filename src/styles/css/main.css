@@ -37,6 +37,18 @@ body {
 .test {
   border: 2px solid red; }
 
+.responsive-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  max-width: 450px; }
+  .responsive-img img {
+    vertical-align: middle;
+    width: 100%;
+    height: auto; }
+
 @font-face {
   font-family: "Freight Text Bold";
   src: url("../../assets/fonts/Freight Text/Freight Text Bold.eot");
@@ -80,7 +92,8 @@ p {
 
 .banner-text .display-text {
   font-size: 5.2rem;
-  color: #f0f0f0; }
+  color: #f0f0f0;
+  text-shadow: 3px 3px #333; }
 
 .banner-text #greeting {
   color: #03957d;
@@ -188,7 +201,8 @@ header {
     padding: 0 2rem; }
 
 #about {
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../assets/images/header-background.jpg); }
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../assets/images/header-background.jpg);
+  background-attachment: fixed; }
   #about .profile-pic {
     max-width: 100%;
     max-height: 150px;
@@ -201,13 +215,14 @@ header {
     text-align: justify;
     padding: 1rem; }
   #about #about-content {
-    margin: 4rem auto;
+    margin: 0 auto;
+    margin-top: 4rem;
     line-height: 1.6rem;
     padding: 1rem;
     border-left: 5px solid rgba(3, 149, 125, 0.3);
+    border-radius: 3px; }
+  #about .frosted {
     background-color: rgba(255, 255, 255, 0.2);
-    /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     /* For the fog-like glass effect */
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px); }
@@ -222,7 +237,7 @@ header {
     margin-top: 1rem; }
 
 #projects .container-fluid {
-  margin: 4rem auto; }
+  margin: 2rem auto; }
 
 #projects .portfolio-item {
   box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -233,7 +248,8 @@ header {
     font-size: 1.2rem; }
   #projects .portfolio-item img {
     width: 100%;
-    display: block; }
+    display: block;
+    border-radius: 5px; }
   #projects .portfolio-item .overlay {
     position: absolute;
     padding: inherit;
@@ -394,6 +410,11 @@ header {
   text-transform: uppercase;
   font-weight: 600; }
 
+#resume {
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+
 .filters {
   margin: 2rem auto; }
   .filters a {
@@ -417,7 +438,7 @@ header {
 .year {
   font-family: "Karla", sans-serif;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #f0f0f0; }
 
 .timeline-item {
@@ -426,6 +447,8 @@ header {
   .timeline-item .timeline-content h2,
   .timeline-item .timeline-content p {
     text-align: left; }
+  .timeline-item .timeline-item-title {
+    font-size: 1.2rem; }
   .timeline-item::after {
     content: "";
     color: black;
@@ -456,3 +479,77 @@ header {
   /* For the fog-like glass effect */
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px); }
+
+.tab-input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1; }
+
+.tabs {
+  margin-top: 1rem;
+  border-radius: 3px;
+  overflow: hidden; }
+
+.tab {
+  width: 100%;
+  color: #f0f0f0;
+  overflow: hidden; }
+  .tab-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    cursor: pointer;
+    /* Icon */ }
+    .tab-label:hover {
+      background: rgba(230, 230, 230, 0.2); }
+    .tab-label::after {
+      content: "\276F";
+      width: 1em;
+      height: 1em;
+      text-align: center;
+      transition: all 0.35s; }
+  .tab-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: #f0f0f0;
+    background: #1b1b1b;
+    transition: all 0.35s; }
+  .tab-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    cursor: pointer; }
+    .tab-close:hover {
+      background: rgba(230, 230, 230, 0.2); }
+
+input:checked + .tab-label {
+  background: rgba(230, 230, 230, 0.2); }
+  input:checked + .tab-label::after {
+    transform: rotate(90deg); }
+
+input:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 1em; }
+
+.tool-stack {
+  padding: 0 2rem;
+  margin: 0 2rem; }
+
+.tool-item {
+  transform: scale(0.5); }
+
+.tool-logo {
+  border-radius: 5px;
+  box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease; }
+  .tool-logo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transform: rotate(5deg); }

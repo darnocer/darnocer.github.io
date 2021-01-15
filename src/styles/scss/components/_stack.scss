@@ -1,0 +1,19 @@
+.tool-stack {
+  padding: 0 $spacer;
+  margin: 0 $spacer;
+}
+.tool-item {
+  transform: scale(0.5);
+}
+
+.tool-logo {
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  transition: 0.5s ease;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transform: rotate(5deg);
+  }
+}

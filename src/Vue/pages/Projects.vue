@@ -49,6 +49,8 @@
           </div>
         </div>
       </div>
+
+      <Stack />
     </div>
     <Arrow />
   </section>
@@ -57,12 +59,14 @@
 <script>
 import data from "../../data/data.json";
 import Arrow from "../components/Arrow.vue";
+import Stack from "../components/Stack.vue";
 
 export default {
   name: "portfolio",
   props: {},
   components: {
     Arrow,
+    Stack
   },
   data() {
     return {
