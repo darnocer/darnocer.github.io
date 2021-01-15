@@ -3,7 +3,8 @@ node_modules
 /dist
 
 # temporary ignore 
-/src/Vue/pages/AboutCopy.vue
+/src/Vue/pages/About_old.vue
+/src/Vue/pages/Contact_old.vue
 
 
 # local env files
