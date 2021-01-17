@@ -79,6 +79,7 @@ p {
 a {
   text-transform: uppercase;
   color: $grey-color;
+  transition: 0.3s ease;
   &:not(.social-icon) {
     font-weight: 600;
   }
