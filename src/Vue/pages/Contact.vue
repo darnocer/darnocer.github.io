@@ -1,20 +1,20 @@
 <template>
-  <section id="contact" class="light-section">
+  <section id="contact" class="dark-section background-01">
     <div class="container-fluid">
       <h1 class="section-heading">{{ heading }}</h1>
       <div class="row justify-content-center">
-        <div
+        <!-- <div
           class="col-sm-12 col-md-6 flex-col contact-content"
           data-aos="fade-right"
           data-aos-duration="1000"
-        >
-        <div class="responsive-img">
+        > -->
+        <!-- <div class="responsive-img">
         <img src="../../assets/images/graphics/treeswing.svg"/>
-        </div>
+        </div> -->
 
-        </div>
+        <!-- </div> -->
         <div
-          class="col-sm-12 col-md-6 flex-col contact-content"
+          class="col-sm-12 col-md-6 flex-col contact-content frosted-card"
           data-aos="fade-right"
           data-aos-duration="1000"
         >
