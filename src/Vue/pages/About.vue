@@ -24,7 +24,7 @@
 
           <p id="bio">
             <span v-html="about.bio"></span>
-            <a href="#" alt="Resume"><button id="resume" class="btn btn--color nav-item"><i class="far fa-file-pdf"></i> Full Resume </button></a>
+            <a :href="resume" alt="Resume" target="_blank"><button id="resume" class="btn btn--color nav-item"><i class="far fa-file-pdf"></i> Full Resume </button></a>
           </p>
           </div>
 
@@ -56,6 +56,7 @@ export default {
       name: data.main.name.first,
       facts: data.about.facts,
       heading: data.main.headings.about,
+      resume: data.contact.resumeLink
     };
   },
 };
