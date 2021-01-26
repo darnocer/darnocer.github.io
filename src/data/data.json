@@ -4,25 +4,18 @@
       "first": "Darian",
       "last": "Nocera"
     },
-    "greeting": "Hi, I'm ",
     "logo": true,
     "description": "I know how to get $#!+ done.",
-    "titles": ["I code $#!+.", "I design $#!+.","I write $#!+.", "I get $#!+ done."],
     "headings": {
-      "about": "About",
-      "skills": "Skillz That Killz",
-      "projects": "Works",
+      "about": "About Darian",
+      "projects": "Portfolio",
+      "endorsements": "What They Say",
       "contact": "Holla @ Me"
     }
   },
   "about": {
-    "bio": "My Name is Darian Nocera. I'm a Denver-based Front-End Web Developer with over 5 years of diverse technical experience. When I'm not coding, you can find me camping, hiking, mountain biking, practicing yoga, writing, reading, meditating, tending to my houseplants, or traveling.",
-    "facts": [
-      { "name": "Hometown", "value": "Pittsburgh, PA" },
-      { "name": "Alma Mater", "value": "Penn State University" },
-      { "name": "Sun Sign", "value": "Aquarius" },
-      { "name": "Pizza Toppings", "value": "Hawaiian" }
-    ], 
+    "bio": "After 5 years of diverse technical experience ranging from quality assurance to project management consulting, I'm pursuing web development because it is something I've always wanted to do. I discovered my real passion for the front-end after completing a full stack coding boot camp last year. Outside of that, I manage the day-to-day operations for a non-profit that provides free web design for small businesses in underserved communities. In the rest of my free time, you can find me camping, hiking, mountain biking, practicing yoga, writing, reading, tending to my houseplants, or traveling.",
+
     "timeline": [
       {
         "year": "Dec 2015",
@@ -46,110 +39,8 @@
       }
     ]
   },
-  "skills": {
-    "defaultCategory": "Web Development",
-
-    "categories": [
-      {
-        "category": "Web Development",
-        "subtitle": "I'm on a mission to master the front-end.",
-        "faClass": "fas fa-terminal",
-        "skillList": [
-          {
-            "name": "Git &bull; Node.js",
-            "level": "100"
-          },
-          {
-            "name": "HTML &bull; CSS &bull; Bootstrap",
-            "level": "90"
-          },
-
-          {
-            "name": "Javascript &bull; jQuery",
-            "level": "70"
-          },
-          {
-            "name": "React.js &bull; Vue.js",
-            "level": "60"
-          }
-        ]
-      },
-
-      {
-        "category": "Website Design",
-        "subtitle": "Started on MySpace now I'm here.",
-        "faClass": "fas fa-paint-brush",
-        "skillList": [
-          {
-            "name": "Squarespace &bull; GoDaddy",
-            "level": "90"
-          },
-          {
-            "name": "Content Writing",
-            "level": "80"
-          },
-          {
-            "name": "Adobe Illustrator &bull; Photoshop",
-            "level": "50"
-          },
-          {
-            "name": "SEO",
-            "level": "50"
-          }
-        ]
-      },
-      {
-        "category": "Project Managment",
-        "subtitle": "I don't mess around.",
-        "faClass": "fas fa-tasks",
-        "skillList": [
-          {
-            "name": "Meeting Deadlines",
-            "level": "100"
-          },
-          {
-            "name": "Task Management &bull; Time Management",
-            "level": "100"
-          },
-          {
-            "name": "Leading Small Teams",
-            "level": "100"
-          },
-          {
-            "name": "Communication",
-            "level": "100"
-          }
-        ]
-      },
-
-      {
-        "category": "Technical Expertise",
-        "subtitle": "I'm like, really good at Googling.",
-        "text": "Hello World",
-        "faClass": "fas fa-cogs",
-        "skillList": [
-          {
-            "name": "Quality Assurance",
-            "level": "100"
-          },
-          {
-            "name": "Microsoft Suite &bull; G-Suite",
-            "level": "100"
-          },
-          {
-            "name": "Troubleshooting &bull; Debugging",
-            "level": "100"
-          },
-          {
-            "name": "Technical Support",
-            "level": "100"
-          }
-        ]
-      }
-    ]
-  },
   "portfolio": {
-    "defaultFilter": "front-end",
+    "defaultFilter": "Group Projects",
     "skills": [
       {
         "name": "Git",
@@ -197,27 +88,27 @@
     "projects": [
       {
         "title": "HelpersConnect",
-        "description": "A MERN-stack app that allows charitable organizations to manage events and volunteers.",
+        "description": "A MERN-stack app that allows charitable organizations to manage events and volunteers via the Google Calendar API. ",
         "image": "helpersconnect.png",
         "link": "https://helpers-connect.herokuapp.com/",
         "source": "https://github.com/darnocer/HelpersConnect",
-        "filter": "full-stack"
+        "filter": "Group Projects"
       },
       {
         "title": "Code Connect",
-        "description": "A full-stack social platform for developers to connect to meet, collaborate, and learn",
+        "description": "A full-stack (CRUD) social platform for developers to connect to meet, collaborate, and learn.",
         "image": "codeconnect.png",
         "link": "https://project-02-code-connect.herokuapp.com/",
         "source": "https://github.com/darnocer/Project-02-Code-Connect",
-        "filter": "full-stack"
+        "filter": "Group Projects"
       },
       {
-        "title": "Developer Portfolio Template",
-        "description": "A mobile-responsive portfolio template built with Vue.js",
+        "title": "Bob Ross's Portfolio Template",
+        "description": "Here is what it would look like if Bob Ross had a modern, mobile-responsive portfolio.",
         "image": "portfoliotemplate.png",
         "link": "https://vue-portfolio-template.netlify.app/",
         "source": "https://github.com/darnocer/vue-portfolio-template",
-        "filter": "front-end"
+        "filter": "Personal Projects"
       },
       {
         "title": "Date Nite",
@@ -225,7 +116,7 @@
         "image": "datenite.png",
         "link": "https://darnocer.github.io/Project-01-Date-Nite-App/",
         "source": "https://github.com/darnocer/Project-01-Date-Nite-App",
-        "filter": "front-end"
+        "filter": "Group Projects"
       },
       {
         "title": "Read-Da-Book",
@@ -233,7 +124,7 @@
         "image": "readinglist.png",
         "link": "https://obscure-scrubland-69219.herokuapp.com/",
         "source": "https://github.com/darnocer/Node-Express-Handlebars-Reading-List",
-        "filter": "full-stack"
+        "filter": "Personal Projects"
       },
       {
         "title": "Weather Dashboard",
@@ -241,31 +132,45 @@
         "image": "dashboard.png",
         "link": "https://darnocer.github.io/Server-Side-APIs-Weather-Dashboard/",
         "source": "https://github.com/darnocer/Server-Side-APIs-Weather-Dashboard",
-        "filter": "front-end"
+        "filter": "Personal Projects"
       },
 
       {
         "title": "The Underdog Foundation",
-        "description": "Website for The Underdog Foundation, a 501(c)(3) non-profit organization that provides business development services to small, local businesses free of charge.",
+        "description": "Maintains the website and manages the content for The Underdog Foundation, a 501(c)(3) non-profit organization that provides business development services to small, local businesses in underserved communities free of charge.",
         "image": "theunderdogfoundation.png",
         "link": "https://www.theunderdogfoundation.org",
-        "filter": "design"
+        "filter": "Non-Profit Work"
       },
       {
         "title": "Welton Street Cafe",
-        "description": "Website for the famous & historic Welton Street Cafe in Five Points, Denver.",
+        "description": "Built and maintains the website for the famous & historic Welton Street Cafe in Five Points, Denver.",
         "image": "weltonstreet.png",
         "link": "https://www.weltonstreetcafe.com",
-        "filter": "design"
+        "filter": "Non-Profit Work"
       },
       {
         "title": "Genna Rae's Wings & More",
-        "description": "Website for Genna Rae's Wings, a wing shop in Denver, CO.",
+        "description": "Built a website for Genna Rae's Wings, the best wing shop in Denver, CO.",
         "image": "gennaraeswings.png",
         "link": "https://www.gennaraeswings.com",
-        "filter": "design"
+        "filter": "Non-Profit Work"
       }
     ]
+  },
+  "endorsements": {
+    "quotes": [
+      {
+        "text": "From the beginning with demonstration, planning, and rollout to go-live support, Darian has been amazing.  I have done many projects and have had some good support and some questionable support, and Darian has went above and beyond to assist us with our questions and needs while giving us knowledgeable answers and realistic solutions.  She is professional and knowledgeable while still being approachable which can be a rare combination."
+      },
+      {
+        "text": "Since the beginning, Darian has jumped in and has blown away all of our expectations. I received comments from the IT department and our operational leaders on how impressed they are with her. We've really appreciated her eye for detail, her ability to speak up and provide insightful comments to conversations, and her positive attitude. She has built rapport and trust with individuals throughout the organization. We would not have been able to have had a successful implementation without her. "
+      },
+      {
+        "text": "Darian has gone above and beyond. Not only has she gone out of her way to single-handedly redesign, test, and improve existing workflows, her transparency with operational leaders and IT analysts has earned her strong credibility that other [consultants] struggled to achieve [on the project]."
+      }
+    ]
+
   },
   "contact": {
     "text": "",
