@@ -48,3 +48,23 @@ body {
     height: auto;
   }
 }
+
+.background-00 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, $opacity),
+      rgba(0, 0, 0, $opacity)
+    ),
+    url(../../assets/images/section-background-00.jpg);
+  background-attachment: fixed;
+}
+
+.background-01 {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, $opacity),
+      rgba(0, 0, 0, $opacity)
+    ),
+    url(../../assets/images/section-background-01.jpg);
+  background-attachment: fixed;
+}

@@ -1,19 +1,11 @@
-// styling specifc to the #about section
 #about {
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(0, 0, 0, $opacity),
-      rgba(0, 0, 0, $opacity)
-    ),
-    url(../../assets/images/header-background.jpg);
-  background-attachment: fixed;
-
   .profile-pic {
     max-width: 100%;
     max-height: $profile-pic-height;
     border-radius: 50%;
     box-shadow: $profile-pic-shadow;
     margin-right: $spacer-sm;
+    margin-top: $spacer-sm;
   }
 
   .section-header {
@@ -21,28 +13,16 @@
   }
 
   #bio {
-    text-align: justify;
-    // font-size: $font-size-md;
-    padding: $spacer-sm;
+    // padding: $spacer-sm;
   }
 
   #about-content {
     margin: 0 auto;
     margin-top: $spacer-lg;
     line-height: 1.6rem;
-    padding: $spacer-sm;
-    // background: rgba(0, 0, 0, 0.3);
-    border-left: $border-thickness solid rgba($accent-color, 0.3);
+    padding: $spacer;
     border-radius: 3px;
     max-width: 40rem;
-  }
-
-  .frosted {
-    background-color: rgba(255, 255, 255, 0.2);
-    // box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    /* For the fog-like glass effect */
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
   }
 
   #facts {

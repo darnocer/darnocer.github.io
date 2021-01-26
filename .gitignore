@@ -2,9 +2,13 @@
 node_modules
 /dist
 
-# temporary ignore 
+# ignore old files
 /src/Vue/pages/About_old.vue
 /src/Vue/pages/Contact_old.vue
+/src/Vue/pages/Skills.vue
+/src/Vue/pages/Endorsements.vue
+/src/data/dataArchive.json
+
 
 
 # local env files

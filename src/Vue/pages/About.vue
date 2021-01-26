@@ -1,10 +1,11 @@
 <template>
-  <section id="about" class="dark-section">
+  <section id="about" class="dark-section background-00">
     <div class="container-fluid">
-      <h1 class="section-heading">{{ heading }}</h1>
+       <h1 class="section-heading">{{ heading }}</h1>
+
       <div class="row justify-content-center">
       
-
+ 
 
        <div
           class="col-sm-12 col-md-6 flex-col"
@@ -13,7 +14,8 @@
           data-aos-duration="1000"
         >
 
-        <div class="frosted" id="about-content">
+        <div class="frosted-card" id="about-content">
+              
           <img
             class="profile-pic float-left"
             src="../../assets/images/profile-pic.png"
@@ -22,10 +24,10 @@
 
           <p id="bio">
             <span v-html="about.bio"></span>
-            <!-- <a href="#" alt="Resume"><button id="resume" class="btn btn--color nav-item"><i class="far fa-file-pdf"></i> Resume</button></a> -->
+            <a href="#" alt="Resume"><button id="resume" class="btn btn--color nav-item"><i class="far fa-file-pdf"></i> Full Resume </button></a>
           </p>
           </div>
-<!-- <Timeline /> -->
+
          
 
         </div> 

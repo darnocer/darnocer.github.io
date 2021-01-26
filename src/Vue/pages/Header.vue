@@ -23,7 +23,8 @@
           </li>
           <li><a class="nav-item nav-link" href="#about">About</a></li>
           <!-- <li><a class="nav-item nav-link" href="#skills">Skills</a></li> -->
-          <li><a class="nav-item nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-item nav-link" href="#projects">Portfolio</a></li>
+          <!-- <li><a class="nav-item nav-link" href="#endorsements">endorsements</a></li> -->
           <li><a class="nav-item nav-link" href="#contact">Contact</a></li>
           
         </ul>

@@ -4,6 +4,7 @@
     <About />
     <!-- <Skills /> -->
     <Projects />
+    <!-- <Endorsements /> -->
     <Contact />
     <Footer />
   </div>
@@ -14,6 +15,7 @@ import Header from "./Vue/pages/Header.vue";
 import About from "./Vue/pages/About.vue";
 // import Skills from "./Vue/pages/Skills.vue";
 import Projects from "./Vue/pages/Projects";
+// import Endorsements from "./Vue/pages/Endorsements";
 import Contact from "./Vue/pages/Contact.vue";
 import Footer from "./Vue/pages/Footer.vue";
 
@@ -24,6 +26,7 @@ export default {
     About,
     // Skills,
     Projects,
+    // Endorsements,
     Contact,
     Footer,
   },
