@@ -7,14 +7,14 @@
     "logo": true,
     "description": "I know how to get $#!+ done.",
     "headings": {
-      "about": "About Darian",
+      "about": "Sup.",
       "projects": "Portfolio",
       "endorsements": "What They Say",
       "contact": "Holla @ Me"
     }
   },
   "about": {
-    "bio": "After 5 years of diverse technical experience ranging from quality assurance to project management consulting, I'm pursuing web development because it is something I've always wanted to do. I discovered my real passion for the front-end after completing a full stack coding boot camp last year. Outside of that, I manage the day-to-day operations for a non-profit that provides free web design for small businesses in underserved communities. In the rest of my free time, you can find me camping, hiking, mountain biking, practicing yoga, writing, reading, tending to my houseplants, or traveling.",
+    "bio": "After 5 years of diverse technical experience ranging from quality assurance to project management and implementation consulting, I'm pursuing <strong>website development</strong> because it is something I've always wanted to do. I discovered my real passion for the front-end last year after completing a full stack coding boot camp and becoming head of technical operations for a non-profit that provides free website design for small, local businesses in underserved communities. In the rest of my free time, you can find me camping, hiking, mountain biking, practicing yoga, writing, reading, tending to my houseplants, or traveling.",
 
     "timeline": [
       {
@@ -81,6 +81,14 @@
       {
         "name": "Bootstrap",
         "image": "bootstrap"
+      },
+      {
+        "name": "Gatsby",
+        "image": "gatsby"
+      },
+      {
+        "name": "Next.js",
+        "image": "nextjs"
       }
 
 
