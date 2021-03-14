@@ -49,6 +49,10 @@ body {
     width: 100%;
     height: auto; }
 
+.header-background {
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/header-background.png);
+  background-attachment: fixed; }
+
 .background-00 {
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/section-background-00.jpg);
   background-attachment: fixed; }
@@ -147,13 +151,6 @@ a {
       width: 100%;
       opacity: 1; }
 
-.frosted-card {
-  background-color: rgba(10, 10, 10, 0.4);
-  /* For the fog-like glass effect */
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(4px);
-  border-bottom: 10px solid rgba(3, 149, 125, 0.3); }
-
 section {
   min-height: 100%;
   width: 100%;
@@ -224,6 +221,9 @@ header {
   margin-right: 1rem;
   margin-top: 1rem; }
 
+#about .bold {
+  font-weight: 700; }
+
 #about .section-header {
   padding: 2rem; }
 
@@ -238,6 +238,13 @@ header {
 #about #facts {
   margin: 2rem; }
 
+#about .frosted-card {
+  background-color: rgba(199, 199, 199, 0.4);
+  /* For the fog-like glass effect */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(4px);
+  border-bottom: 10px solid rgba(3, 149, 125, 0.3); }
+
 #skills #skill-container {
   margin: 2rem auto;
   padding: 0;
@@ -247,6 +254,10 @@ header {
 
 #projects .container-fluid {
   margin: 2rem auto; }
+
+#projects .disclaimer {
+  text-align: center;
+  font-style: italic; }
 
 #projects .portfolio-item {
   box-shadow: 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -301,6 +312,13 @@ header {
   margin-top: 2rem; }
   #contact .contact-form button {
     width: 100%; }
+
+#contact .frosted-card {
+  background-color: rgba(0, 0, 0, 0.4);
+  /* For the fog-like glass effect */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(4px);
+  border-bottom: 10px solid rgba(3, 149, 125, 0.3); }
 
 .skillbars {
   display: flex;

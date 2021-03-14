@@ -1,5 +1,5 @@
 <template>
-  <section id="contact" class="dark-section background-01">
+  <section id="contact" class="dark-section background-00">
     <div class="container-fluid">
       <h1 class="section-heading">{{ heading }}</h1>
       <div class="row justify-content-center">

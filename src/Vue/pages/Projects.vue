@@ -2,6 +2,7 @@
   <section id="projects" class="dark-section">
     <div class="container-fluid">
       <h1 class="section-heading">{{ heading }}</h1>
+      <p class="disclaimer"><br>🚧I'm working on adding my most recent & relevant projects. <br>In the meantime, check out my <a href="https://www.github.com/darnocer" alt="Darian's Github" target="_blank"> Github</a> or see what I've been up to with <a href="www.iamtuf.org" alt="The Underdog Family" target="_blank">#TUF</a>.</p>
 
       <!-- start of filters  -->
       <div class="row filters">

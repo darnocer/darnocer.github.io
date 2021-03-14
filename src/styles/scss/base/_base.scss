@@ -49,6 +49,16 @@ body {
   }
 }
 
+.header-background {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, $opacity),
+      rgba(0, 0, 0, $opacity)
+    ),
+    url(../../assets/images/header-background.png);
+  background-attachment: fixed;
+}
+
 .background-00 {
   background-image: linear-gradient(
       to right bottom,

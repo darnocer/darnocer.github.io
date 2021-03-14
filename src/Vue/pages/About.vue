@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="dark-section background-00">
+  <section id="about" class="light-section">
     <div class="container-fluid">
        <h1 class="section-heading">{{ heading }}</h1>
 

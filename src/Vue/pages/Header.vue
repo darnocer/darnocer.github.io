@@ -1,5 +1,5 @@
 <template>
-  <header id="home" class="bg">
+  <header id="home" class="bg header-background">
     <nav class="navbar navbar-expand-lg fixed-top dark-bg">
              <div v-if="logo"><img src="../../assets/images/logo.png" alt="logo" id="Logo"></div>
         <div v-if="!logo">

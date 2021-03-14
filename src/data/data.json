@@ -5,16 +5,16 @@
       "last": "Nocera"
     },
     "logo": true,
-    "description": "I know how to get $#!+ done.",
+    "description": "Let's go above & beyond.",
     "headings": {
       "about": "Sup.",
-      "projects": "Portfolio",
+      "projects": "My Work",
       "endorsements": "What They Say",
       "contact": "Holla @ Me"
     }
   },
   "about": {
-    "bio": "After 5 years of diverse technical experience ranging from quality assurance to project management and implementation consulting, I'm pursuing <strong>website development</strong> because it is something I've always wanted to do. I discovered my real passion for the front-end last year after completing a full stack coding boot camp and becoming head of technical operations for a non-profit that provides free website design for small, local businesses in underserved communities. In the rest of my free time, you can find me camping, hiking, mountain biking, practicing yoga, writing, reading, tending to my houseplants, or traveling.",
+    "bio": "<br>I'm a self-motivated <span class='bold'>digital project manager</span> with 5 years of diverse technical experience and a passion for creating <span class='bold'>beautiful web experiences</span>! I have a track record of going <span class='bold'>above & beyond</span> in my projects and supporting team members and clients to grow & succeed. In my free time, you can find me coding, camping, hiking, mountain biking, practicing yoga, writing, reading, tending to my houseplants, or traveling.",
 
     "timeline": [
       {
@@ -77,14 +77,6 @@
       {
         "name": "Netlify",
         "image": "netlify"
-      },
-      {
-        "name": "Bootstrap",
-        "image": "bootstrap"
-      },
-      {
-        "name": "Gatsby",
-        "image": "gatsby"
       },
       {
         "name": "Next.js",
