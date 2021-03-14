@@ -46,7 +46,7 @@
     </div>
 
     <div class="form-group">
-      <textarea class="form-control" id="message" rows="5" placeholder="Wazzup?" required></textarea>
+      <textarea name="message" class="form-control" id="message" rows="5" placeholder="Wazzup?" required></textarea>
     </div>
 
     <div style="position: absolute; left: -5000px;">
